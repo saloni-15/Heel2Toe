@@ -125,6 +125,13 @@ nav ul li a:hover {
   font-family: "Helvetica Neue", sans-serif;
 }
 
+.card-title{
+  font-weight: 600;
+}
+.card-title, .card-text{
+  color: black;
+}
+
 .col {
   margin: 20px auto;
 }
