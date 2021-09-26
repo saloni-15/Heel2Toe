@@ -60,5 +60,5 @@
     ```
     git push -u origin <your_branch_name>
     ```
-
+11. Make PR 🚀
 
