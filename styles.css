@@ -86,7 +86,8 @@ nav ul li {
   padding: 16px 40px;
 }
 
-nav ul li a, .list-unstyled li a {
+nav ul li a,
+.list-unstyled li a {
   text-decoration: none;
   color: rgb(221, 84, 29);
   font-size: 16px;
@@ -125,10 +126,11 @@ nav ul li a:hover {
   font-family: "Helvetica Neue", sans-serif;
 }
 
-.card-title{
+.card-title {
   font-weight: 600;
 }
-.card-title, .card-text{
+.card-title,
+.card-text {
   color: black;
 }
 
@@ -174,19 +176,55 @@ nav ul li a:hover {
   height: 640px;
 }
 
-.best-seller .left-heading{
+.best-seller .left-heading {
   text-align: left;
   font-family: "Great Vibes", cursive;
   padding: 80px 0 0 70px;
-  margin: auto;	
+  margin: auto;
 }
 
-footer .container-fluid{
-	background-color: rgb(243, 234, 234);
-	color: rgb(221, 84, 29);
-	font-family: "Helvetica Neue", sans-serif;
+#button {
+  display: inline-block;
+  background-color: rgb(243, 234, 234);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
 }
 
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: rgb(221, 84, 29);
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+footer .container-fluid {
+  background-color: rgb(243, 234, 234);
+  color: rgb(221, 84, 29);
+  font-family: "Helvetica Neue", sans-serif;
+}
 
 @media (max-width: 786px) {
   .wrapper {
