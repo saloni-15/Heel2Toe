@@ -1,7 +1,10 @@
 <div align="center">
-<img src="images/logo.ico" widht=50px height=50px />
+ <img src="images/logo.ico" height=70px />
 </div>
-<h1 align="center"> HEEL2TOE </h1> 
+<p align = 'center'>
+ <a href='https://saloni-15.github.io/Heel2Toe/'>
+    <img src = "https://img.shields.io/badge/Heel2Toe-4B275F?style=round" width = '20%'/></a> 
+</p>
 
 <div align="center">
 
@@ -16,13 +19,14 @@
 <h1 align="center">An online shoe shopping website template built with </h3>
 <div align="center"> 
 
-![HTML](https://img.shields.io/badge/-HTML-040E2C?style=for-the-badge&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-040E2C?style=for-the-badge&logo=CSS3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-040E2C?style=for-the-badge&logo=javascript) 
+![HTML](https://img.shields.io/badge/-HTML-3498DB?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 
 </div>
 
 ## 🎉 Getting Started
+
 1. Fork this repository.
 
 2. Clone your forked copy of the project.
