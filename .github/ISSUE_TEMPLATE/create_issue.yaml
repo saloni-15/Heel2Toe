@@ -15,8 +15,7 @@ body:
     attributes:
       label: "Issue Description"
       description: "Please walk us through issue step by step. Upload the image if necessary for demo."
-      placeholder: ""
-    validation:
+    validations:
       required: true
   - type: checkboxes
     id: hacktober-fest-contributor
