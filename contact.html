@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&display=swap"
-        rel="stylesheet">
-    <!-- Style -->
-    <link rel="stylesheet" href="styles.css">
 
-    <title>Contact</title>
+<head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&display=swap" rel="stylesheet">
+  <!-- Style -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Contact</title>
 </head>
+
 <body>
+  <div class="new">
     <div class="container">
-        <form action="" method="get">
-      
-          <label for="fname">Name</label>
-          <input type="text" id="name" name="name" placeholder="Elon Musk">
-      
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="elonmusk.mars@tesla.com">
-      
-          <label for="category">Category</label>
-          <select id="category" name="category">
-              <option value="delivery">Delivery</option>
-            <option value="sales">Sales</option>
-            <option value="finance">Finance</option>
-            <option value="misc">Misc</option>
-          </select>
-      
-          <label for="content">Content</label>
-          <textarea id="content" name="content" placeholder="When will my Tesla Roadster get delivered. 😥" style="height:200px"></textarea>
-      
-          <input id="submit" type="submit" value="Submit">
-      
-        </form>
-      </div>
-    <script src="script.js"></script>
+
+      <h1 class="contactform">CONTACT</h1>
+      <form action="" method="get">
+
+        <label for="fname">Name</label>
+        <input type="text" id="name" name="name" placeholder="Elon Musk">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="elonmusk.mars@tesla.com">
+
+        <label for="email">Delivery</label>
+        <input type="text" id="email" name="email" placeholder="Delivery Address">
+
+        <label for="Mobile">Mobile</label>
+        <input type="text" id="email" name="email" placeholder="Phone Number">
+
+        <label for="category">Category</label>
+        <select id="category" name="category">
+          <option value="delivery">Delivery</option>
+          <option value="sales">Sales</option>
+          <option value="finance">Finance</option>
+          <option value="misc">Misc</option>
+        </select>
+
+
+        <label for="content">Any Message For Us</label>
+        <textarea id="content" name="content" placeholder="When will my Tesla Roadster get delivered. 😥"
+          style="height:200px"></textarea>
+
+        <input id="submit" type="submit" value="Submit">
+
+      </form>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>

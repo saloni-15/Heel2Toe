@@ -29,7 +29,9 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: rgb(221, 84, 29);
+    background-color: rgb(180, 82, 46);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -253,7 +255,7 @@ nav ul li a:hover {
 
 footer .container-fluid {
     background-color: rgb(243, 234, 234);
-    color: rgb(221, 84, 29);
+    color: rgb(206, 111, 74);
     font-family: 'Inter', sans-serif;
 }
 
@@ -333,7 +335,11 @@ footer .container-fluid {
     }
 }
 .container {
-    margin: 25px;
+   
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -355,14 +361,27 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: rgb(92, 181, 216);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: medium;
+    
 }
 input[type=submit]:hover {
     background-color: #45a049;
+}
+.contactform{
+    text-align: center;
+    color: rgb(211, 120, 45);
+}
+.new{
+    align-items: center;
+}
+@media screen and (max-width: 1000px){
+    body {
+        font-size: 200%;
+    }
 }
