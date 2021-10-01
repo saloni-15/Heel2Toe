@@ -147,6 +147,11 @@ nav ul li a:hover {
   margin: auto;
 }
 
+.explore-btn > a {
+  text-decoration: none;
+  color: white;
+}
+
 .latest-trend {
   background-image: url(./images/bg3.jpg);
   background-attachment: fixed;
