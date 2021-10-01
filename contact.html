@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
   <div class="new">
     <div class="container">
 
@@ -50,6 +51,33 @@
     </div>
   </div>
   <script src="script.js"></script>
+
+    <div class="container insideDiv" >
+        <form action="" method="get">
+      
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="name" placeholder="Elon Musk">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="elonmusk.mars@tesla.com">
+      
+          <label for="category">Category</label>
+          <select id="category" name="category">
+              <option value="delivery">Delivery</option>
+            <option value="sales">Sales</option>
+            <option value="finance">Finance</option>
+            <option value="misc">Misc</option>
+          </select>
+      
+          <label for="content">Content</label>
+          <textarea id="content" name="content" placeholder="When will my Tesla Roadster get delivered. 😥" style="height:200px"></textarea>
+      
+          <input id="submit" type="submit" value="Submit">
+      
+        </form>
+      </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
