@@ -1,7 +1,10 @@
 <div align="center">
-<img src="images/logo.ico" widht=50px height=50px />
+ <img src="images/logo.ico" height=70px />
 </div>
-<h1 align="center"> HEEL2TOE </h1> 
+<p align = 'center'>
+ <a href='https://saloni-15.github.io/Heel2Toe/'>
+    <img src = "https://img.shields.io/badge/Heel2Toe-4B275F?style=round" width = '20%'/></a> 
+</p>
 
 <div align="center">
 
@@ -16,49 +19,50 @@
 <h1 align="center">An online shoe shopping website template built with </h3>
 <div align="center"> 
 
-![HTML](https://img.shields.io/badge/-HTML-040E2C?style=for-the-badge&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-040E2C?style=for-the-badge&logo=CSS3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-040E2C?style=for-the-badge&logo=javascript) 
+![HTML](https://img.shields.io/badge/-HTML-3498DB?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 
 </div>
 
 ## 🎉 Getting Started
-1. Fork this repository.
 
-2. Clone your forked copy of the project.
+1. **Fork this repository.**
+
+2. **Clone your forked copy of the project.**
    ```
    git clone https://github.com/<your_user_name>/Heel2Toe.git
    ```
 
-3. Navigate to project directory.
+3. **Navigate to project directory.**
    ```
    cd Heel2Toe
    ```
-4. Add reference to original repository (remote).
+4. **Add reference to original repository (remote).**
    ```
    git remote add upstream https://github.com/saloni-15/Heel2Toe.git
    ```
-5. Before making any changes in the repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.
+5. **Before making any changes in the repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.**
    ```
    git pull upstream main
    ```
-6. Create a new branch.
+6. **Create a new branch**.
    ```
    git checkout -b <your_branch_name>
    ```
-7. Make necessary changes.
+7. **Make necessary changes.**
 
-8. Track your changes
+8. **Track your changes**
    ```
    git add .
    ```
-9. Commit your changes.
+9. **Commit your changes.**
    ```
    git commit -m "Relevant message"
    ```
-10. Push the commited changes in your branch to your remote repo.
+10. **Push the commited changes in your branch to your remote repo.**
     ```
     git push -u origin <your_branch_name>
     ```
-11. Make PR 🚀
+11. **Make pull request (PR)** 🚀
 
