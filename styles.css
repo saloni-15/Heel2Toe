@@ -19,9 +19,9 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
+    background-color: #FFFCFB;
     border-radius: 30px;
-    outline: 1px solid slategrey;
+    outline: 1px solid #FFFCFB;
 }
 body {
     font-family: 'Inter', sans-serif;
