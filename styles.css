@@ -32,12 +32,28 @@ body {
     background-color: rgb(221, 84, 29);
 }
 
-.insideDiv {
-    position: absolute;
-    top : 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.img-h:hover {
+    transform: scale(1.1);
+    transition: 1.1s;
 }
+
+
+.car-len {
+    width: 500px;
+}
+
+
+
+.img-editt {
+    height: 72vh;
+    width: 80%;
+}
+
+.img-editt1 {
+   max-height: 24%;
+    width: 90%;
+}
+
 
 .wrapper {
     background-image: url('./images/bgshoes2.jpg');
