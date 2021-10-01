@@ -32,11 +32,19 @@ body {
     background-color: rgb(221, 84, 29);
 }
 
+.insideDiv {
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .wrapper {
     background-image: url('./images/bgshoes2.jpg');
     background-size: cover;
     height: 980px;
 }
+
 
 .content {
     width: 94%;
