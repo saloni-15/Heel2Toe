@@ -30,8 +30,3 @@ btn.on('click', function (e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, '300');
 });
-
-// const preloader = document.querySelector('.preloading');
-// window.addEventListener('load', () => {
-//     preloader.classList.remove('loading');
-// });
