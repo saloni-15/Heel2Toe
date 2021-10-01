@@ -1,1 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>
+        Womens
+    </title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: rgb(221, 84, 29);
+        }
+
+        .wrapper {
+            background-color: white;
+            background-size: cover;
+            height: 980px;
+        }
+
+
+        .logo {
+            line-height: 60px;
+            position: fixed;
+            float: left;
+            margin: 16px 46px;
+            color: rgb(221, 84, 29);
+            font-weight: 500;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            line-height: 60px;
+            margin-top: 0;
+            z-index: 1;
+        }
+
+        nav ul {
+            line-height: 60px;
+            list-style: none;
+            background: rgba(0, 0, 0, 0);
+            overflow: hidden;
+            color: rgb(221, 84, 29);
+            padding: 0;
+            text-align: right;
+            margin: 0;
+            padding-right: 40px;
+            transition: 1s;
+        }
+
+        nav.black ul {
+            background: rgb(221, 84, 29);
+        }
+
+        nav.black ul li a {
+            color: white;
+        }
+
+        nav.black ul li a:hover {
+            color: white;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        nav.black .logo {
+            color: white;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 16px 40px;
+        }
+
+        nav ul li a,
+        .list-unstyled li a {
+            text-decoration: none;
+            color: rgb(221, 84, 29);
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(221, 84, 29);
+            border-bottom: 2px solid rgb(221, 84, 29);
+            padding-bottom: 10px;
+        }
+
+        .menu-icon {
+            line-height: 60px;
+            width: 100%;
+            background: rgb(221, 84, 29);
+            text-align: right;
+            box-sizing: border-box;
+            padding: 15px 24px;
+            cursor: pointer;
+            color: white;
+            display: none;
+        }
+
+
+        #button {
+            display: inline-block;
+            background-color: rgb(243, 234, 234);
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 4px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+
+        #button::after {
+            content: '\f077';
+            font-family: FontAwesome;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+            line-height: 50px;
+            color: rgb(221, 84, 29);
+        }
+
+        /* #button:hover {
+            cursor: pointer;
+            background-color: #333;
+        } */
+
+        #button:active {
+            background-color: #555;
+        }
+
+        #button.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .preloading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: hsla(0, 100%, 100%, 1);
+            height: 100vh;
+            width: 100vw;
+            z-index: 99999;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .preloading .outer-circle {
+            height: 8vmin;
+            width: 8vmin;
+            border: 5px solid hsla(0, 0%, 0%, 0.1);
+            border-top: 5px solid rgb(221, 84, 29);
+            border-radius: 50%;
+            animation: preloading 0.8s linear infinite;
+        }
+
+        .preloading.loading {
+            display: flex;
+        }
+
+        @keyframes preloading {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 786px) {
+            .wrapper {
+                background-color: white;
+                background-size: cover;
+                height: 780px;
+            }
+
+            .logo {
+                position: fixed;
+                top: 0;
+                margin-top: 16px;
+                color: white;
+            }
+
+            nav ul {
+                max-height: 0px;
+                background: rgb(221, 84, 29);
+            }
+
+            nav.black ul {
+                background: rgb(221, 84, 29);
+            }
+
+            .showing {
+                max-height: 34em;
+            }
+
+            nav ul li {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 24px;
+                text-align: center;
+            }
+
+            nav ul li a {
+                color: white;
+            }
+
+            nav ul li a:hover {
+                color: white;
+                border-bottom: 2px solid white;
+                padding-bottom: 10px;
+            }
+
+            .menu-icon {
+                display: block;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="preloading loading">
+        <div class="outer-circle"></div>
+    </section>
+    <a id="button"></a>
+    <div id="home" class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    Heel2Toe
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#Sort By">Sort By</a></li>
+                        <li><a href="#Treading">Treading</a></li>
+                        <li><a href="#Size">Size</a></li>
+                        <li><a href="#Color">Color</a></li>
+                        <li><a href="#Pattern">Pattern</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
