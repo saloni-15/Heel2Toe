@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-  background-image: url("./images/bgshoes2.png");
+  background-image: url("./images/bgshoes2.jpg");
   background-size: cover;
   height: 980px;
 }
@@ -208,7 +208,7 @@ footer .container-fluid {
 
 @media (max-width: 786px) {
   .wrapper {
-    background-image: url("./images/bgshoes1.png");
+    background-image: url("./images/bgshoes1.jpg");
     background-size: cover;
     height: 780px;
   }
