@@ -1,15 +1,21 @@
-/* body{
-    margin: 0;
-}
-header {
- 
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(221, 84, 29);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Scroll-bar*/
 body::-webkit-scrollbar {
     width: 1em;
 }
@@ -23,28 +29,15 @@ body::-webkit-scrollbar-thumb {
     border-radius: 30px;
     outline: 1px solid #FFFCFB;
 }
-body {
-    font-family: 'Inter', sans-serif;
-    color: white;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: rgb(221, 84, 29);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
 
 .img-h:hover {
     transform: scale(1.1);
     transition: 1.1s;
 }
 
-
 .car-len {
     width: 500px;
 }
-
-
 
 .img-editt {
     height: 72vh;
@@ -53,7 +46,7 @@ body {
 
 .img-editt1 {
    max-height: 24%;
-    width: 90%;
+   width: 90%;
 }
 
 
@@ -62,7 +55,6 @@ body {
     background-size: cover;
     height: 980px;
 }
-
 
 .content {
     width: 94%;
@@ -179,9 +171,7 @@ nav ul li a:hover {
     margin: 20px auto;
 }
 .container-fluid {
-    /* max-width: 1200px; */
     padding: 40px;
-    /* background: rgb(221, 84, 29); */
 }
 
 .explore-btn {
@@ -240,6 +230,8 @@ nav ul li a:hover {
 .best-seller .left-heading h1 {
     text-shadow: 2px 3px 4px #343a40;
 }
+
+/*back to top button*/
 #button {
     display: inline-block;
     background-color: rgb(243, 234, 234);
@@ -366,7 +358,6 @@ a:hover{
     }
 }
 /* Code for responsive footer ends here  */
-/* footer ends  */
 
 .preloading {
     position: fixed;
