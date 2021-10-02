@@ -94,7 +94,7 @@ nav {
 nav ul {
     line-height: 60px;
     list-style: none;
-    background: rgba(0, 0, 0, 0);
+    background: white;
     overflow: hidden;
     color: rgb(221, 84, 29);
     padding: 0;
