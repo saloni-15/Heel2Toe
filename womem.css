@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: white;
+}
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: rgb(221, 84, 29);
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    margin-top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: rgb(221, 84, 29);
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgb(221, 84, 29);
+}
+
+nav.black ul li a {
+    color: white;
+}
+
+nav.black .logo {
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+}
+
+nav ul li a {
+    position: relative;
+}
+nav ul li a,
+.list-unstyled li a {
+    text-decoration: none;
+    color: rgb(221, 84, 29);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: rgb(221, 84, 29);
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    width: 0%;
+    background: white;
+    height: 7%;
+    transition: all 0.2s ease;
+}
+nav ul li a:hover:before {
+    width: 100%;
+    left: 0;
+}
