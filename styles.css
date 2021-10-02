@@ -29,7 +29,9 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: rgb(221, 84, 29);
+    background-color: rgb(180, 82, 46);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img-h:hover {
@@ -58,7 +60,8 @@ body {
 .wrapper {
     background-image: url('./images/bgshoes2.jpg');
     background-size: cover;
-    height: 980px;
+    background-position: center;
+    height: 100vh;
 }
 
 
@@ -122,7 +125,11 @@ nav.black .logo {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;
+    padding: 16px 0;
+}
+
+.top-nav-link:not(:last-child) {
+    margin-right: 20px;
 }
 
 nav ul li a,
@@ -131,7 +138,10 @@ nav ul li a,
     color: rgb(221, 84, 29);
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    transition: all .4s;
+    /* padding-bottom: 10px; */
 }
 
 nav ul li a:hover {
@@ -140,6 +150,36 @@ nav ul li a:hover {
     border-bottom: 2px solid rgb(221, 84, 29);
     padding-bottom: 10px;
 }
+
+.header__c2a {
+    position: absolute;
+    /* background: red; */
+    display: inline-block;
+    bottom: 150px;
+    left: 50px;
+}
+
+.header__c2a a {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    background-color: rgba(0, 128, 0, 0.8);
+    color: white;
+    padding: 16px 30px;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.header__c2a-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.header__c2a a:hover {
+    border-radius: 0px;
+}
+
 .menu-icon {
     line-height: 60px;
     width: 100%;
@@ -277,7 +317,7 @@ nav ul li a:hover {
 
 footer .container-fluid {
     background-color: rgb(243, 234, 234);
-    color: rgb(221, 84, 29);
+    color: rgb(206, 111, 74);
     font-family: 'Inter', sans-serif;
 }
 
@@ -357,7 +397,11 @@ footer .container-fluid {
     }
 }
 .container {
-    margin: 25px;
+   
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -379,14 +423,27 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: rgb(92, 181, 216);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: medium;
+    
 }
 input[type=submit]:hover {
     background-color: #45a049;
+}
+.contactform{
+    text-align: center;
+    color: rgb(211, 120, 45);
+}
+.new{
+    align-items: center;
+}
+@media screen and (max-width: 1000px){
+    body {
+        font-size: 200%;
+    }
 }
