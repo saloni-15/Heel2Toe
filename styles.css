@@ -281,6 +281,11 @@ footer .container-fluid {
     font-family: 'Inter', sans-serif;
 }
 
+footer .address a {
+    color: rgb(221, 84, 29);
+    text-decoration: none;
+}
+
 .preloading {
     position: fixed;
     top: 0;
