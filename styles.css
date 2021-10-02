@@ -297,7 +297,11 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin-top: 40px;
+    margin:auto;
+}
+.column1 a{
+    text-decoration: none;
+    color: rgb(206, 111, 74);
 }
 .column2{
     width: 30%;
