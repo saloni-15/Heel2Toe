@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .wrapper {
-    background-image: url('./images/bgshoes2.jpg');
+    background-image: url('../images/bgshoes2.jpg');
     background-size: cover;
     height: 980px;
 }
@@ -184,7 +184,7 @@ nav ul li a:hover {
 }
 
 .latest-trend {
-    background-image: url('./images/bg3.jpg');
+    background-image: url('../images/bg3.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -213,7 +213,7 @@ nav ul li a:hover {
 }
 
 .best-seller {
-    background-image: url('./images/bg4.jpg');
+    background-image: url('../images/bg4.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -391,7 +391,7 @@ a:hover{
 
 @media (max-width: 786px) {
     .wrapper {
-        background-image: url('./images/bgshoes1.png');
+        background-image: url('../images/bgshoes1.png');
         background-size: cover;
         height: 780px;
     }
