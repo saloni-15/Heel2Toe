@@ -21,7 +21,7 @@ body:
     id: hacktober-fest-contributor
     attributes:
       label: "Are you a Hacktoberfest'21 contributor"
-      description: "Let us know weather you are a Hacktoberfest'21 contributor"
+      description: "Let us know whether you are a Hacktoberfest'21 contributor"
       options:
         - label: "Yes, I'am Hacktoberfest'21 contributor"
           required: true
