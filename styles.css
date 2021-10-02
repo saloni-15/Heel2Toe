@@ -29,7 +29,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: rgb(180, 82, 46);
+    background-color: rgb(221, 84, 29);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -399,7 +399,7 @@ input[type=submit]:hover {
 }
 .contactform{
     text-align: center;
-    color: rgb(211, 120, 45);
+    color: rgb(221, 84, 29);
 }
 .new{
     align-items: center;
