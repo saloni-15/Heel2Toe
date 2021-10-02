@@ -297,6 +297,10 @@ footer {
     justify-content: center;
     text-align: left;
 }
+.column1 a{
+    text-decoration: none;
+    color: rgb(206, 111, 74);
+}
 .column2{
     width: 30%;
     display: flex;
