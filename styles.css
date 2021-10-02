@@ -277,11 +277,82 @@ nav ul li a:hover {
     visibility: visible;
 }
 
-footer .container-fluid {
+/* footer begin from here  */
+footer {
     background-color: rgb(243, 234, 234);
     color: rgb(206, 111, 74);
     font-family: 'Inter', sans-serif;
+    height: fit-content;
 }
+.footerContent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.column1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.column2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 10%;
+}
+.column2 a{
+    text-decoration: none;
+    color: rgb(221, 84, 29);
+    font-size: 19px;
+
+}
+.contactLinks{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contactIcons{
+    width: 80%;
+    margin: auto;
+}
+.copy{
+    /* height: 5vh; */
+    display: flex;
+    justify-content: center;
+}
+/* Code for responsive footer  */
+@media(max-width:890px){
+    .column1{
+        width: 60%;
+    }
+    .contactLinks{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+}
+@media(max-width:500px){
+    .column1{
+        padding-left: 2%;
+    }
+    .column2{
+
+        align-items: left;
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 4%;
+    }
+}
+/* Code for responsive footer ends here  */
+/* footer ends  */
 
 .preloading {
     position: fixed;
