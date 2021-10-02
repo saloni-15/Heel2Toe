@@ -95,3 +95,50 @@ nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
+
+/*------ Top ------*/
+h2{
+    color: rgb(233, 167, 25);
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+    line-height: 5rem;
+    text-shadow: 2px 0 0 rgb(177, 82, 4), -2px 0 0 rgb(177, 82, 4), 0 2px 0 rgb(177, 82, 4), 0 -2px 0 rgb(177, 82, 4), 1px 1px rgb(177, 82, 4), -1px -1px 0 rgb(177, 82, 4), 1px -1px 0 rgb(177, 82, 4), -1px 1px 0 rgb(177, 82, 4);
+    position: relative;
+    left: 12%;
+    margin: 20px;
+    padding: 15px;
+}
+h3{
+    font-size: 1.5rem;
+    letter-spacing: 0.37rem;
+    
+}
+.box{
+    padding: 120px 0;
+    background-color:rgb(221, 84, 29);
+    text-align: center;
+    color: #fff;
+}
+.top-section{
+    padding: 50px;
+    margin: 10px; 
+}
+.top-section img{
+    position: absolute;
+    left: 70%;
+    top: 58%;
+    z-index: -1;
+}
+/*---styling the button*/
+.btn{
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    left: 15%;
+    background-color: #fff;
+    border: 2px solid rgb(221, 84, 29);
+}
+
+.btn:hover{
+    background-color: rgb(221, 84, 29);
+}
