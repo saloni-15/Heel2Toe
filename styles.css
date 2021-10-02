@@ -464,17 +464,5 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.contactform{
-    text-align: center;
-    color: rgb(211, 120, 45);
-}
-.new{
-    align-items: center;
-}
-@media screen and (max-width: 1000px){
-    body {
-        font-size: 200%;
-    }
-}
 
 
