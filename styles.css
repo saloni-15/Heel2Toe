@@ -181,7 +181,7 @@ nav ul li a:hover {
 .container-fluid {
     /* max-width: 1200px; */
     padding: 40px;
-    background: rgb(221, 84, 29);
+    /* background: rgb(221, 84, 29); */
 }
 
 .explore-btn {
@@ -288,6 +288,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 20px 0px;
+    align-items: center;
 }
 .column1{
     width: 30%;
@@ -296,6 +297,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: left;
+    margin-top: 40px;
 }
 .column2{
     width: 30%;
@@ -307,9 +309,17 @@ footer {
 }
 .column2 a{
     text-decoration: none;
-    color: rgb(221, 84, 29);
+    color: rgb(206, 111, 74);
     font-size: 19px;
+}
 
+a{
+    color: rgb(206, 111, 74);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(206, 111, 74);
 }
 .contactLinks{
     width: 40%;
