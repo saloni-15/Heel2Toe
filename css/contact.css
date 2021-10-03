@@ -1,0 +1,62 @@
+.new {
+    padding-top: 100px;
+}
+nav ul li a:hover {
+    transition: all 0.2s ease;
+}
+@media (max-width:1048px) {
+    .new{
+        padding-top: 163px;
+    }
+    
+}
+@media (max-width: 1184px) {
+    .wrapper {
+        background-image: url('../images/bgshoes1.png');
+        background-size: cover;
+        height: 780px;
+    }
+    .logo {
+        position: relative;
+        top: 0;
+        margin-top: auto;
+        color: white;
+    }
+    .menu {
+        width: 100%;
+        background-color: rgb(221, 84, 29);
+    }
+    nav ul {
+        max-height: 120px;
+    }
+
+    nav.black ul {
+        background: rgb(221, 84, 29);
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: auto;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        color: white;
+        border-bottom: 2px solid white;
+        padding-bottom: 0px;
+    }
+    .menu-icon {
+        display: block;
+        color: white;
+    }
+}
+
+/* @media screen and (max-width: 1000px){
+    body {
+        font-size: 200%;
+    }
+} */
