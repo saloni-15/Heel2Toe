@@ -336,8 +336,8 @@ a:hover{
 }
 /* Code for responsive footer  */
 @media(max-width:890px){
-    .column1{
-        width: 60%;
+    .column1,.column2{
+        width: 50%;
     }
     .contactLinks{
         margin-top: 10px;
@@ -347,11 +347,11 @@ a:hover{
 }
 @media(max-width:500px){
     .column1{
-        padding-left: 2%;
+        margin: 0;
+        padding-left: 5%;
     }
     .column2{
-
-        align-items: left;
+       align-items: left;
         width: 100%;
         margin-top: 20px;
         padding-left: 4%;
@@ -480,8 +480,8 @@ input[type=submit]:hover {
 .new{
     align-items: center;
 }
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
     body {
         font-size: 200%;
     }
-}
+} */
