@@ -45,8 +45,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .img-editt1 {
-   max-height: 24%;
-   width: 90%;
+    max-height: 24%;
+    width: 90%;
 }
 
 
@@ -134,6 +134,7 @@ nav ul li a:hover {
     border-bottom: 2px solid rgb(221, 84, 29);
     padding-bottom: 10px;
 }
+
 .menu-icon {
     line-height: 60px;
     width: 100%;
@@ -154,6 +155,7 @@ nav ul li a:hover {
     margin: 0 auto 40px auto;
     font-weight: 800;
 }
+
 .card {
     margin: auto;
     font-family: 'Inter', sans-serif;
@@ -162,6 +164,7 @@ nav ul li a:hover {
 .card-title {
     font-weight: 600;
 }
+
 .card-title,
 .card-text {
     color: black;
@@ -170,6 +173,7 @@ nav ul li a:hover {
 .col {
     margin: 20px auto;
 }
+
 .container-fluid {
     padding: 40px;
 }
@@ -178,7 +182,7 @@ nav ul li a:hover {
     margin: auto;
 }
 
-.explore-btn > a {
+.explore-btn>a {
     text-decoration: none;
     color: white;
 }
@@ -257,13 +261,16 @@ nav ul li a:hover {
     line-height: 50px;
     color: rgb(221, 84, 29);
 }
+
 #button:hover {
     cursor: pointer;
     background-color: #333;
 }
+
 #button:active {
     background-color: #555;
 }
+
 #button.show {
     opacity: 1;
     visibility: visible;
@@ -276,26 +283,30 @@ footer {
     font-family: 'Inter', sans-serif;
     height: fit-content;
 }
-.footerContent{
+
+.footerContent {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0px;
+    padding: 20px;
     align-items: center;
 }
-.column1{
+
+.column1 {
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin:auto;
+    margin: auto;
 }
-.column1 a{
+
+.column1 a {
     text-decoration: none;
     color: rgb(206, 111, 74);
 }
-.column2{
+
+.column2 {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -303,60 +314,74 @@ footer {
     justify-content: center;
     padding-left: 10%;
 }
-.column2 a{
+
+.column2 a {
     text-decoration: none;
     color: rgb(206, 111, 74);
     font-size: 19px;
 }
 
-a{
+a {
     color: rgb(206, 111, 74);
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
-    color: rgb(206, 111, 74);
+    /* color: rgb(206, 111, 74); */
+    color: black;
 }
-.contactLinks{
+
+.contactLinks {
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
-.contactIcons{
+
+.contactIcons {
     width: 80%;
     margin: auto;
 }
-.copy{
+
+.copy {
     /* height: 5vh; */
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
+
 /* Code for responsive footer  */
-@media(max-width:890px){
-    .column1,.column2{
+@media(max-width:890px) {
+
+    .column1,
+    .column2 {
         width: 50%;
     }
-    .contactLinks{
+
+    .contactLinks {
         margin-top: 10px;
         width: 100%;
     }
 
 }
-@media(max-width:500px){
-    .column1{
+
+@media(max-width:500px) {
+    .column1 {
         margin: 0;
         padding-left: 5%;
     }
-    .column2{
-       align-items: left;
+
+    .column2 {
+        align-items: left;
         width: 100%;
         margin-top: 20px;
         padding-left: 4%;
     }
 }
+
 /* Code for responsive footer ends here  */
 
 .preloading {
@@ -371,6 +396,7 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
 .preloading .outer-circle {
     height: 8vmin;
     width: 8vmin;
@@ -379,6 +405,7 @@ a:hover{
     border-radius: 50%;
     animation: preloading 0.8s linear infinite;
 }
+
 .preloading.loading {
     display: flex;
 }
@@ -395,6 +422,7 @@ a:hover{
         background-size: cover;
         height: 780px;
     }
+
     .logo {
         position: fixed;
         top: 0;
@@ -421,21 +449,25 @@ a:hover{
         padding: 24px;
         text-align: center;
     }
+
     nav ul li a {
         color: white;
     }
+
     nav ul li a:hover {
         color: white;
         border-bottom: 2px solid white;
         padding-bottom: 10px;
     }
+
     .menu-icon {
         display: block;
         color: white;
     }
 }
+
 .container {
-   
+
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -446,10 +478,14 @@ a:hover{
     width: 60%;
     font-size: medium;
 }
-label{
+
+label {
     color: black;
 }
-input[type=text], select, textarea {
+
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -468,18 +504,22 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-size: medium;
-    
+
 }
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
-.contactform{
+
+.contactform {
     text-align: center;
     color: rgb(221, 84, 29);
 }
-.new{
+
+.new {
     align-items: center;
 }
+
 /* @media screen and (max-width: 1000px){
     body {
         font-size: 200%;
