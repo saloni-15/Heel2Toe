@@ -95,3 +95,48 @@ nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
+
+/* Mens Poster Section */
+
+#men-banner{
+    height: 89%;
+    width: 100%;
+    background: url(../images/MensPoster.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#men-banner #content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #00000070;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 116px 0 116px;
+}
+#men-banner #content h1{
+    font-size: 50px;
+    padding: 0 0px 8px 0;
+}
+#men-banner #content button{
+    padding: 10px 8px;
+    margin: 10px 0px;
+    width: 19%;
+    font-size: 27px;
+    border: 3px solid #dd541d;
+    background-color: #00000059;
+    color: #ff7640;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+#men-banner #content button:hover{
+    color: black;
+    background-color: #dd541d ;
+}
+
