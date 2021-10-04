@@ -99,11 +99,11 @@ nav ul li a:hover:before {
 /* Mens Poster Section */
 
 #men-banner{
-    height: 89%;
+    height: 100%;
     width: 100%;
     background: url(../images/MensPoster.jpg) no-repeat center center/cover;
-    position: absolute;
-    top: 90px;
+    /* position: absolute;
+    top: 90px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +118,7 @@ nav ul li a:hover:before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 116px 0 116px;
+    padding: 17em 5em 10em;
 }
 #men-banner #content h1{
     font-size: 50px;
@@ -140,3 +140,20 @@ nav ul li a:hover:before {
     background-color: #dd541d ;
 }
 
+/* Mens Product Section */
+
+#men-product {
+    background-color: rgb(221, 84, 29);
+    padding: 50px 40px;
+}
+#men-product .heading {
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    margin: 0 auto 40px auto;
+    font-weight: 800;
+}
+.col {
+    margin: 20px auto;
+}
