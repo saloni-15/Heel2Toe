@@ -95,6 +95,10 @@ nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
+nav ul li a:hover{
+    text-decoration: none;
+}
+
 
 /* Mens Poster Section */
 
@@ -102,8 +106,6 @@ nav ul li a:hover:before {
     height: 100%;
     width: 100%;
     background: url(../images/MensPoster.jpg) no-repeat center center/cover;
-    /* position: absolute;
-    top: 90px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +142,7 @@ nav ul li a:hover:before {
     background-color: #dd541d ;
 }
 
+
 /* Mens Product Section */
 
 #men-product {
@@ -154,6 +157,23 @@ nav ul li a:hover:before {
     margin: 0 auto 40px auto;
     font-weight: 800;
 }
+
+.card {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-title {
+    font-weight: 600;
+}
+.card-title,
+.card-text {
+    color: black;
+}
+
 .col {
     margin: 20px auto;
+}
+.container-fluid {
+    padding: 40px;
 }
