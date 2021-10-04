@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(221, 84, 29);
 }
 
 .logo {
@@ -117,7 +117,6 @@ h2 {
 h3 {
     font-size: 1.5rem;
     letter-spacing: 0.37rem;
-
 }
 
 .box {
@@ -129,7 +128,9 @@ h3 {
 
 .top-section {
     padding: 50px;
-    margin: 10px;
+    margin: 30px 0;
+    height: fit-content;
+    background-color: #fff;
 }
 
 /*---styling the button*/
@@ -144,4 +145,12 @@ h3 {
 
 .btn-cta:hover {
     background-color: rgb(221, 84, 29);
+}
+
+/*---spacing*/
+.col {
+    margin: 20px auto;
+}
+.container-fluid {
+    padding: 40px;
 }
