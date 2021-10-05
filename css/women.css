@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
 body {
-    background-color: white;
+    background-color: rgb(221, 84, 29);
 }
+
 .logo {
     line-height: 60px;
     position: fixed;
@@ -61,6 +63,7 @@ nav ul li {
 nav ul li a {
     position: relative;
 }
+
 nav ul li a,
 .list-unstyled li a {
     text-decoration: none;
@@ -81,6 +84,7 @@ nav ul li a,
     color: white;
     display: none;
 }
+
 nav ul li a::before {
     content: '';
     position: absolute;
@@ -91,13 +95,14 @@ nav ul li a::before {
     height: 7%;
     transition: all 0.2s ease;
 }
+
 nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
 
 /*------ Top ------*/
-h2{
+h2 {
     color: rgb(233, 167, 25);
     font-size: 2.8rem;
     letter-spacing: 0.25rem;
@@ -108,29 +113,28 @@ h2{
     margin: 20px;
     padding: 15px;
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
     letter-spacing: 0.37rem;
-    
 }
-.box{
+
+.box {
     padding: 120px 0;
-    background-color:rgb(221, 84, 29);
+    background-color: rgb(221, 84, 29);
     text-align: center;
     color: #fff;
 }
-.top-section{
+
+.top-section {
     padding: 50px;
-    margin: 10px; 
+    margin: 30px 0;
+    height: fit-content;
+    background-color: #fff;
 }
-.top-section img{
-    position: absolute;
-    left: 70%;
-    top: 58%;
-    z-index: -1;
-}
+
 /*---styling the button*/
-.btn{
+.btn-cta {
     padding: 10px;
     width: 300px;
     position: relative;
@@ -139,6 +143,14 @@ h3{
     border: 2px solid rgb(221, 84, 29);
 }
 
-.btn:hover{
+.btn-cta:hover {
     background-color: rgb(221, 84, 29);
+}
+
+/*---spacing*/
+.col {
+    margin: 20px auto;
+}
+.container-fluid {
+    padding: 40px;
 }
