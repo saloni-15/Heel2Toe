@@ -95,6 +95,12 @@ nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
+nav ul li a:hover{
+    text-decoration: none;
+}
+.shadow {
+    box-shadow: 0 0 12px 0px #333333c7;
+}
 
 /*-----responsive navbar-----*/
 @media (max-width: 786px) {
@@ -187,7 +193,20 @@ h3 {
     background-color: rgb(221, 84, 29);
 }
 
-/*---spacing*/
+
+.card {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-title {
+    font-weight: 600;
+}
+.card-title,
+.card-text {
+    color: black;
+}
+
 .col {
     margin: 20px auto;
 }

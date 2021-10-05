@@ -141,6 +141,10 @@ nav ul li a:hover:before {
     }
 }
 
+.shadow {
+    box-shadow: 0 0 12px 0px #333333c7;
+}
+
 /* Mens Poster Section */
 
 #men-banner {
@@ -186,7 +190,6 @@ nav ul li a:hover:before {
     color: black;
     background-color: #dd541d;
 }
-
 
 /* Mens Product Section */
 

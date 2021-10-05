@@ -146,6 +146,11 @@ nav ul li a:hover {
     display: none;
 }
 
+.shadow {
+    box-shadow: 0 0 12px 0px #333333c7;
+}
+
+
 .heading {
     display: block;
     font-family: 'Bebas Neue', cursive;
@@ -485,17 +490,6 @@ input[type=submit]:hover {
 .new{
     align-items: center;
 }
-/* @media screen and (max-width: 1000px){
-    body {
-        font-size: 200%;
-    }
-} */
 
-.shadow {
-    box-shadow: 0 0 12px 0px #333333c7;
-}
 
-.text-white-shadow {
-    color: white;
-    text-shadow: 0 0 8px black;
-}
+
