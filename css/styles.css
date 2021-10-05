@@ -5,7 +5,6 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
     color: white;
     margin: 0;
     padding: 0;
@@ -98,6 +97,7 @@ nav ul {
 
 nav.black ul {
     background: rgb(221, 84, 29);
+    box-shadow: 0px -5px 20px 0px black;
 }
 
 nav.black ul li a {
@@ -156,12 +156,8 @@ nav ul li a:hover {
 }
 .card {
     margin: auto;
-    font-family: 'Inter', sans-serif;
 }
 
-.card-title {
-    font-weight: 600;
-}
 .card-title,
 .card-text {
     color: black;
@@ -494,3 +490,12 @@ input[type=submit]:hover {
         font-size: 200%;
     }
 } */
+
+.shadow {
+    box-shadow: 0 0 12px 0px #333333c7;
+}
+
+.text-white-shadow {
+    color: white;
+    text-shadow: 0 0 8px black;
+}
