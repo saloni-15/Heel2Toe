@@ -1,16 +1,10 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
     background-color: rgb(221, 84, 29);
 }
 
+/*-----navbar-----*/
 .logo {
     line-height: 60px;
     position: fixed;
@@ -28,6 +22,7 @@ nav {
     line-height: 60px;
     margin-top: 0;
     z-index: 1;
+    background-color: #fff;
 }
 
 nav ul {
@@ -101,6 +96,51 @@ nav ul li a:hover:before {
     left: 0;
 }
 
+/*-----responsive navbar-----*/
+@media (max-width: 786px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+        color: white;
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: rgb(221, 84, 29);
+    }
+
+    nav.black ul {
+        background: rgb(221, 84, 29);
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: white;
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        color: white;
+    }
+}
+
 /*------ Top ------*/
 h2 {
     color: rgb(233, 167, 25);
@@ -151,6 +191,7 @@ h3 {
 .col {
     margin: 20px auto;
 }
+
 .container-fluid {
     padding: 40px;
 }
