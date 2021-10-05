@@ -67,11 +67,13 @@ body::-webkit-scrollbar-thumb {
     line-height: 60px;
     position: fixed;
     float: left;
-    margin: 16px 46px;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding: 0px;
     color: rgb(221, 84, 29);
     font-weight: 500;
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 nav {
@@ -80,6 +82,7 @@ nav {
     line-height: 60px;
     margin-top: 0;
     z-index: 1;
+    padding: 0px;
 }
 
 nav ul {
@@ -90,8 +93,8 @@ nav ul {
     color: rgb(221, 84, 29);
     padding: 0;
     text-align: right;
-    margin: 0;
-    padding-right: 40px;
+    margin-left: 5px;
+    padding-right: 10px;
     transition: 1s;
 }
 
@@ -161,6 +164,7 @@ nav ul li a:hover {
 }
 .card {
     margin: auto;
+    padding: 10px;
 }
 
 .card-title,
