@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
 body {
     background-color: white;
 }
-
-/*-----navbar-----*/
 .logo {
     line-height: 60px;
     position: fixed;
@@ -22,7 +26,6 @@ nav {
     line-height: 60px;
     margin-top: 0;
     z-index: 1;
-    background-color: #fff;
 }
 
 nav ul {
@@ -58,7 +61,6 @@ nav ul li {
 nav ul li a {
     position: relative;
 }
-
 nav ul li a,
 .list-unstyled li a {
     text-decoration: none;
@@ -79,7 +81,6 @@ nav ul li a,
     color: white;
     display: none;
 }
-
 nav ul li a::before {
     content: '';
     position: absolute;
@@ -90,64 +91,22 @@ nav ul li a::before {
     height: 7%;
     transition: all 0.2s ease;
 }
-
 nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
-
-/*-----responsive navbar-----*/
-@media (max-width: 786px) {
-    .logo {
-        position: fixed;
-        top: 0;
-        margin-top: 16px;
-        color: white;
-    }
-
-    nav ul {
-        max-height: 0px;
-        background: rgb(221, 84, 29);
-    }
-
-    nav.black ul {
-        background: rgb(221, 84, 29);
-    }
-
-    .showing {
-        max-height: 34em;
-    }
-
-    nav ul li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px;
-        text-align: center;
-    }
-
-    nav ul li a {
-        color: white;
-    }
-
-    nav ul li a:hover {
-        color: white;
-        border-bottom: 2px solid white;
-        padding-bottom: 10px;
-    }
-
-    .menu-icon {
-        display: block;
-        color: white;
-    }
+nav ul li a:hover{
+    text-decoration: none;
 }
 
 .shadow {
     box-shadow: 0 0 12px 0px #333333c7;
 }
 
+
 /* Mens Poster Section */
 
-#men-banner {
+#men-banner{
     height: 100%;
     width: 100%;
     background: url(../images/MensPoster.jpg) no-repeat center center/cover;
@@ -155,8 +114,7 @@ nav ul li a:hover:before {
     justify-content: center;
     align-items: center;
 }
-
-#men-banner #content {
+#men-banner #content{
     width: 100%;
     height: 100%;
     text-align: center;
@@ -168,13 +126,11 @@ nav ul li a:hover:before {
     align-items: center;
     padding: 17em 5em 10em;
 }
-
-#men-banner #content h1 {
+#men-banner #content h1{
     font-size: 50px;
     padding: 0 0px 8px 0;
 }
-
-#men-banner #content button {
+#men-banner #content button{
     padding: 10px 8px;
     margin: 10px 0px;
     width: 19%;
@@ -185,11 +141,11 @@ nav ul li a:hover:before {
     cursor: pointer;
     transition: all 0.1s;
 }
-
-#men-banner #content button:hover {
+#men-banner #content button:hover{
     color: black;
-    background-color: #dd541d;
+    background-color: #dd541d ;
 }
+
 
 /* Mens Product Section */
 
@@ -197,7 +153,6 @@ nav ul li a:hover:before {
     background-color: rgb(221, 84, 29);
     padding: 50px 40px;
 }
-
 #men-product .heading {
     display: block;
     font-family: 'Bebas Neue', cursive;
@@ -215,7 +170,6 @@ nav ul li a:hover:before {
 .card-title {
     font-weight: 600;
 }
-
 .card-title,
 .card-text {
     color: black;
@@ -224,7 +178,6 @@ nav ul li a:hover:before {
 .col {
     margin: 20px auto;
 }
-
 .container-fluid {
     padding: 40px;
 }
