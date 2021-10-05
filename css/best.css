@@ -323,7 +323,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
 .contactIcons{
     width: 80%;
@@ -455,8 +455,8 @@ a:hover{
     }
 }
 .container {
-   
-    margin-top: 25px;
+
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
@@ -488,7 +488,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-size: medium;
-    
+
 }
 input[type=submit]:hover {
     background-color: #45a049;
