@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
 body {
     background-color: white;
 }
-
-/*-----navbar-----*/
 .logo {
     line-height: 60px;
     position: fixed;
     float: left;
     margin: 16px 46px;
-    color: rgb(221, 84, 29);
+    color: white;
     font-weight: 500;
     font-size: 30px;
     letter-spacing: 2px;
@@ -22,7 +26,7 @@ nav {
     line-height: 60px;
     margin-top: 0;
     z-index: 1;
-    background-color: #fff;
+    background-color: rgb(221, 84, 29);
 }
 
 nav ul {
@@ -30,18 +34,17 @@ nav ul {
     list-style: none;
     background: rgba(0, 0, 0, 0);
     overflow: hidden;
-    color: rgb(221, 84, 29);
+    /* color: rgb(221, 84, 29); */
+    color: white;
     padding: 0;
     text-align: right;
     margin: 0;
     padding-right: 40px;
     transition: 1s;
 }
-
 nav.black ul {
     background: rgb(221, 84, 29);
 }
-
 nav.black ul li a {
     color: white;
 }
@@ -58,11 +61,10 @@ nav ul li {
 nav ul li a {
     position: relative;
 }
-
 nav ul li a,
 .list-unstyled li a {
     text-decoration: none;
-    color: rgb(221, 84, 29);
+    color: white;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
@@ -79,7 +81,6 @@ nav ul li a,
     color: white;
     display: none;
 }
-
 nav ul li a::before {
     content: '';
     position: absolute;
@@ -90,53 +91,10 @@ nav ul li a::before {
     height: 7%;
     transition: all 0.2s ease;
 }
-
 nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
 
-/*-----responsive navbar-----*/
-@media (max-width: 786px) {
-    .logo {
-        position: fixed;
-        top: 0;
-        margin-top: 16px;
-        color: white;
-    }
 
-    nav ul {
-        max-height: 0px;
-        background: rgb(221, 84, 29);
-    }
 
-    nav.black ul {
-        background: rgb(221, 84, 29);
-    }
-
-    .showing {
-        max-height: 34em;
-    }
-
-    nav ul li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px;
-        text-align: center;
-    }
-
-    nav ul li a {
-        color: white;
-    }
-
-    nav ul li a:hover {
-        color: white;
-        border-bottom: 2px solid white;
-        padding-bottom: 10px;
-    }
-
-    .menu-icon {
-        display: block;
-        color: white;
-    }
-}
