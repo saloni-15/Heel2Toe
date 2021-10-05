@@ -5,7 +5,6 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
     color: white;
     margin: 0;
     padding: 0;
@@ -157,21 +156,11 @@ nav ul li a:hover {
 }
 .card {
     margin: auto;
-    font-family: 'Inter', sans-serif;
-}
-
-.card-title {
-    font-weight: 600;
 }
 
 .card-title,
 .card-text {
     color: black;
-}
-
-.card-body {
-    position: absolute;
-    margin-top: 43%;
 }
 
 .col {
