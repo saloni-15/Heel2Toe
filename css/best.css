@@ -360,7 +360,10 @@ a:hover{
         margin-top: 10px;
         width: 100%;
     }
-
+     .btn-success{
+        margin-bottom: 10px;
+        margin-right: 2px;
+    }
 }
 @media(max-width:500px){
     .column1{
