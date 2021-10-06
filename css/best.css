@@ -336,9 +336,9 @@ a:hover{
 }
 
 .carousel-caption{
-  border: 7px solid white;
-  border-radius: 20%;
-  background-color: rgba(252, 255, 255, 0.719);
+    border: 3px solid white;
+    border-radius: 1%;
+    background-color: rgba(214, 214, 214, 0.719);
 }
 
 .carousel-text{
