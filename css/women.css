@@ -150,6 +150,7 @@ h3 {
 }
 
 .btn-cta:hover {
+    color: rgb(255, 222, 191);
     background-color: rgb(221, 84, 29);
 }
 

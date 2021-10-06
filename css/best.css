@@ -351,6 +351,12 @@ a:hover{
   font-weight: 500;
 }
 
+.items{
+    color: rgb(255, 211, 130);
+    border: 3px solid rgba(1, 122, 1, 0.616);
+    background-color: rgba(51, 51, 51, 0);
+}
+
 /* Code for responsive footer  */
 @media(max-width:890px){
     .column1,.column2{
