@@ -135,14 +135,14 @@ nav ul li a:hover{
     margin: 10px 0px;
     width: 19%;
     font-size: 27px;
-    border: 3px solid #dd541d;
+    border: 2px solid #dd541d;
     background-color: #00000059;
     color: #ff7640;
     cursor: pointer;
     transition: all 0.1s;
 }
 #men-banner #content button:hover{
-    color: black;
+    color: rgb(255, 222, 191);
     background-color: #dd541d ;
 }
 
@@ -152,14 +152,6 @@ nav ul li a:hover{
 #men-product {
     background-color: rgb(221, 84, 29);
     padding: 50px 40px;
-}
-#men-product .heading {
-    display: block;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    color: white;
-    margin: 0 auto 40px auto;
-    font-weight: 800;
 }
 
 .card {
@@ -181,3 +173,4 @@ nav ul li a:hover{
 .container-fluid {
     padding: 40px;
 }
+
