@@ -153,14 +153,6 @@ nav ul li a:hover{
     background-color: rgb(221, 84, 29);
     padding: 50px 40px;
 }
-#men-product .heading {
-    display: block;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    color: white;
-    margin: 0 auto 40px auto;
-    font-weight: 800;
-}
 
 .card {
     margin: auto;

@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  font-family: "Inter", sans-serif;
   color: white;
   margin: 0;
   padding: 0;
@@ -151,11 +152,11 @@ nav ul li a:hover {
 
 .heading {
   display: block;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Helvetica Neue", sans-serif;
   text-align: center;
   color: white;
   margin: 0 auto 40px auto;
-  font-weight: 800;
+  font-weight: 600;
 }
 .card {
   margin: auto;
