@@ -291,7 +291,10 @@ footer {
   justify-content: center;
   text-align: left;
 }
-
+.column1 h5 {
+  color: rgb(201, 80, 33);
+  font-size: 1.5rem;
+}
 .column1 a {
   text-decoration: none;
   color: rgb(206, 111, 74);
@@ -303,6 +306,9 @@ footer {
   align-items: left;
   justify-content: center;
   padding-left: 10%;
+}
+.column2 h1{
+  color: rgb(201, 80, 33);
 }
 .column2 a {
   text-decoration: none;
@@ -357,8 +363,8 @@ a:hover{
 }
 @media (max-width: 500px) {
   .column1 {
-    margin: 0;
-    padding-left: 5%;
+    margin: 15px 0;
+    padding-left: 4%;
   }
   .column2 {
     align-items: left;
