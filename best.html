@@ -12,57 +12,42 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/best.css">
+    <link rel="stylesheet" href="css/allbtns.css">
     <title>Best seller</title>
 </head>
 
 <body>
     <!-- navbar start-->
-
-    <nav class="navbar navbar-light bg-light fixed nav">
-
-        <div class="container-fluid">
-            <a class="navbar-brand" style="color: white; font-weight: bold; font-size: 30px;">BESTSELLERS</a>
-
-            <!-- men dropdown -->
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <b>MEN</b>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#"><b>All time best seller</b></a></li>
-                    <li><a class="dropdown-item" href="#"><b>All time best seller</b></a></li>
-                    <li><a class="dropdown-item" href="#"><b>All time best seller</b></a></li>
-                    <li><a class="dropdown-item" href="#"><b>Celebrity choice</b></a></li>
-                </ul>
-            </div>
-            <!-- women dropdownMenu-->
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <b>WOMEN</b>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#"><b>All time best seller</b></a></li>
-                    <li><a class="dropdown-item" href="#"><b>Month best seller</b></a></li>
-                    <li><a class="dropdown-item" href="#"><b>Week best seller</b></a></li>
-                    <li><a class="dropdown-item" href="#"><b>Celebrity Choice</b></a></li>
-                </ul>
-            </div>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-            </form>
+    <nav class="black shadow" style="top:0px; z-index: 3;">
+        <div class="menu-icon">
+             <div class="bar-icon">
+                 <div class="bar"></div>
+                 <div class="bar"></div>
+                 <div class="bar"></div>
+             </div>
+        </div>
+        <a href="index.html">
+            <div class="logo">Heel2Toe</div>
+        </a>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="arrivals.html">New Arrivals</a></li>
+                <li><a href="trending.html">Trending</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
     </nav>
-
 
     <!-- navbar-ends -->
 
     <!-- carousel section starts -->
 
-    <div class="container">
+    <div class="container-fluid">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -80,42 +65,42 @@
                 <div class="carousel-item active" data-bs-interval="3000">
                     <img src="images/men2.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5><b>BEST SELLER OF THE MONTH</b></h5>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <button type="button" class="btn btn-success">SHOP NOW</button>
+                        <h5 class = 'carousel-text'><b>BEST SELLER OF THE MONTH</b></h5>
+                        <p>For skateboarders, By skateboarders.</p>
+                        <button type="button" class="shop-now btn btn-success">SHOP NOW</button>
 
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="images/men4.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <img src="images/men5.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5><b>BEST SELLER OF THE MONTH</b></h5>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <button type="button" class="btn btn-success">SHOP NOW</button>
+                        <h5 class = 'carousel-text'><b>BEST SELLER OF THE MONTH</b></h5>
+                        <p>High School Vibes.</p>
+                        <button type="button" class="shop-now btn btn-success">SHOP NOW</button>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="images/shoe2.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5><b>BEST SELLER OF THE MONTH</b></h5>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <button type="button" class="btn btn-success">SHOP NOW</button>
+                        <h5 class = 'carousel-text'><b>BEST SELLER OF THE MONTH</b></h5>
+                        <p>Shine at your next party.</p>
+                        <button type="button" class="shop-now btn btn-success">SHOP NOW</button>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="images/women4.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5><b>BEST SELLER OF THE MONTH</b></h5>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <button type="button" class="btn btn-success">SHOP NOW</button>
+                        <h5 class = 'carousel-text'><b>BEST SELLER OF THE MONTH</b></h5>
+                        <p>Simpy Perfect.</p>
+                        <button type="button" class="shop-now btn btn-success">SHOP NOW</button>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="images/women6.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5><b>BEST SELLER OF THE MONTH</b></h5>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <button type="button" class="btn btn-success">SHOP NOW</button>
+                        <h5 class = 'carousel-text'><b>BEST SELLER OF THE MONTH</b></h5>
+                        <p>When style meets comfort.</p>
+                        <button type="button" class="shop-now btn btn-success">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -132,7 +117,6 @@
         </div>
     </div>
 
-
     <!-- carousel section ends -->
 
 
@@ -144,13 +128,13 @@
 
         </div>
         <div class="d-md-flex justify-content-between align-items-center  p-5">
-            <button type="button" class="btn btn-success">College</button>
-            <button type="button" class="btn btn-success">Casual</button>
-            <button type="button" class="btn btn-success">Sports</button>
-            <button type="button" class="btn btn-success">Party</button>
-            <button type="button" class="btn btn-success">Wedding</button>
-            <button type="button" class="btn btn-success">Sneakers</button>
-            <button type="button" class="btn btn-success">Child</button>
+            <button type="button" class="items btn btn-success">College</button>
+            <button type="button" class="items btn btn-success">Casual</button>
+            <button type="button" class="items btn btn-success">Sports</button>
+            <button type="button" class="items btn btn-success">Party</button>
+            <button type="button" class="items btn btn-success">Wedding</button>
+            <button type="button" class="items btn btn-success">Sneakers</button>
+            <button type="button" class="items btn btn-success">Child</button>
 
         </div>
     </section>
@@ -173,6 +157,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
+    
+     <!-- script for mobile nav links -->
+     <script>
+        const icon = document.querySelector(".menu-icon");
+        const navList = document.querySelector("nav ul")
+
+        icon.addEventListener("click", function(){
+            navList.classList.toggle("showing")
+        })
+    </script>
 </body>
 
 </html>

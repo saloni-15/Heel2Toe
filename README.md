@@ -14,12 +14,20 @@
 ![License](https://img.shields.io/badge/License-MIT-red.svg)
 ![Stars](https://img.shields.io/github/stars/saloni-15/Heel2Toe?style=flat&logo=github)
 ![Forks](https://img.shields.io/github/forks/saloni-15/Heel2Toe?style=flat&logo=github)
+[![Number of Contributors](https://img.shields.io/github/contributors/saloni-15/Heel2Toe)](https://github.com/saloni-15/Heel2Toe/graphs/contributors)
+<br/>
+[![Issues opened](https://img.shields.io/github/issues/saloni-15/Heel2Toe)](https://github.com/saloni-15/Heel2Toe)
+[![Issues closed](https://img.shields.io/github/issues-closed/saloni-15/Heel2Toe)](https://github.com/saloni-15/Heel2Toe/issues)
+[![PRs open](https://img.shields.io/github/issues-pr/saloni-15/Heel2Toe)](https://github.com/saloni-15/Heel2Toe/pulls)
+[![PRs closed](https://img.shields.io/github/issues-pr-closed/saloni-15/Heel2Toe)](https://github.com/saloni-15/Heel2Toe/pulls)
+ <br/>
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-21-red)
 </div>
 
 <h1 align="center">An online shoe shopping website template built with </h3>
 <div align="center"> 
 
-![HTML](https://img.shields.io/badge/-HTML-3498DB?style=for-the-badge&logo=HTML5&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-E34C26?style=for-the-badge&logo=HTML5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 

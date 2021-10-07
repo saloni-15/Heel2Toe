@@ -10,7 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product page</title>
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/allbtns.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 </head>
 
 <body>
@@ -31,26 +34,74 @@
     </header>
 
     <main class="main">
-        <section class="section__product">
-            <div class="section__product-box">
-                <img src="../images/bg3.jpg" alt="product images" class="section__product-img">
-            </div>
-            <div class="section__product-box section__product-box-2">
-                <h1 class="section__product-title">This is product title</h1>
-                <p class="section__product-sdis">
-                    <span class="block__span">Short description:-</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nostrum illum iure reprehenderit
-                    nulla facilis quia sapiente, eius eaque voluptas!
-                </p>
+      <div class="super_container">
+      <header class="header" style="display: none;">
+          <div class="header_main">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                          <div class="header_search">
+                              <div class="header_search_content">
+                                  <div class="header_search_form_container">
+                                      <form action="#" class="header_search_form clearfix">
+                                          <div class="custom_dropdown">
+                                              <div class="custom_dropdown_list"> <span class="custom_dropdown_placeholder clc">All Categories</span> <i class="fas fa-chevron-down"></i>
+                                                  <ul class="custom_list clc">
+                                                      <li><a class="clc" href="#">All Categories</a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <div class="single_product">
+          <div class="container-fluid" style=" background-color: #fff; padding: 11px;">
+              <div class="row">
 
-                <div class="section__product-c2abox">
-                    <a href="#" class="section__product-c2a">Buy Now</a>
-                    <a href="#" class="section__product-c2a">Add To Basket</a>
-                </div>
-            </div>
-        </section>
+                  <div class="col-lg-4 order-lg-2 order-1">
+                      <div class="image_selected"><img src="./images/women4.jpg" alt=""></div>
+                  </div>
+                  <div class="col-lg-6 order-3">
+                      <div class="product_description">
+
+                          <div class="product_name">Product Name - Lorem ipsum</div>
+                          <div> <span class="product_price">₹ 29,000</span> <strike class="product_discount"> <span style='color:black'>₹ 2,000<span> </strike> </div>
+                          <div> <span class="product_saved">You Saved:</span> <span style='color:black'>₹ 2,000<span> </div>
+                          <hr class="singleline">
+                          <div> <span class="product_info"> Product Discription :                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare sem sed nisl dignissim, facilisis dapibus lacus vulputate. Sed lacinia lacinia magna.
+<br>
+</div>
+                          <hr class="singleline">
+                          <div class="order_info d-flex flex-row">
+                              <form action="#">
+                          </div>
+                          <div class="row">
+                              <div class="col-xs-6" style="margin-left: 13px;">
+                                  <div class="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+                                      <div style="margin-left: 13px;" class="quantity_buttons">
+                                          <div  id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+                                          <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div style="margin-left: 13px;" class="col-xs-6"> <button type="button" style="background:rgb(221, 84, 29); border:none;" class="btn btn-primary shop-button">Add to Cart</button> <button type="button" class="btn btn-success shop-button">Buy Now</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+</div>
+      </div>
+
     </main>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
     <footer class="footer">
         <p>Copyright &copy; 2021 Heel2toe</p>
     </footer>
