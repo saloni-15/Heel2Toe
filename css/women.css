@@ -119,7 +119,9 @@ h3{
     text-align: center;
     color: #fff;
 }
+
 .top-section{
+    display: flex;
     padding: 50px;
     margin: 10px; 
 }
