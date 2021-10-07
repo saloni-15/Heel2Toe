@@ -1,32 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="css/arrivals.css">
     <link rel="stylesheet" href="css/allbtns.css">
 </head>
+
 <body>
     <header id="navbar">
         <nav>
-          <div class="menu-icon">
-            <i class="fa fa-bars fa-2x"></i>
-          </div>
-          <a href="index.html"><div class="logo">Heel2Toe</div></a>
-          <div class="menu">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="men.html">Men</a></li>
-              <li><a href="women.html">Women</a></li>
-              <!-- <li><a href="arrivals.html">New Arrivals</a></li> -->
-              <li><a href="trending.html">Trending</a></li>
-              <li><a href="best.html">Best Sellers</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <a href="index.html">
+                <div class="logo">Heel2Toe</div>
+            </a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <!-- <li><a href="arrivals.html">New Arrivals</a></li> -->
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="best.html">Best Sellers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-      </header>
+    </header>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="images/men13.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption card d-none d-md-block">
+                    <h5 class="fw-bold">Explore our new arrivals</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, iure.</p>
+                    <button class="btn btn-primary">Explore now</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/women13.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption card d-none d-md-block">
+                    <h5 class="fw-bold">Explore our new arrivals</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, iure.</p>
+                    <button class="btn btn-primary">Explore now</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/men14.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption card d-none d-md-block">
+                    <h5 class="fw-bold">Explore our new arrivals</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, iure.</p>
+                    <button class="btn btn-primary">Explore now</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/women14.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption card d-none d-md-block">
+                    <h5 class="fw-bold">Explore our new arrivals</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, iure.</p>
+                    <button class="btn btn-primary">Explore now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/men15.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption card d-none d-md-block">
+                    <h5 class="fw-bold">Explore our new arrivals</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, iure.</p>
+                    <button class="btn btn-primary">Explore now</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

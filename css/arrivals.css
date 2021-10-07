@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
 body {
     background-color: white;
 }
+
 .logo {
     line-height: 60px;
     position: fixed;
@@ -42,9 +44,11 @@ nav ul {
     padding-right: 40px;
     transition: 1s;
 }
+
 nav.black ul {
     background: rgb(221, 84, 29);
 }
+
 nav.black ul li a {
     color: white;
 }
@@ -61,6 +65,7 @@ nav ul li {
 nav ul li a {
     position: relative;
 }
+
 nav ul li a,
 .list-unstyled li a {
     text-decoration: none;
@@ -81,6 +86,7 @@ nav ul li a,
     color: white;
     display: none;
 }
+
 nav ul li a::before {
     content: '';
     position: absolute;
@@ -91,10 +97,29 @@ nav ul li a::before {
     height: 7%;
     transition: all 0.2s ease;
 }
+
 nav ul li a:hover:before {
     width: 100%;
     left: 0;
 }
 
+.carousel {
+    /* border-top: 10px solid white; */
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+}
 
+.carousel-item {
+    height: 100vh;
+}
 
+.carousel-item img {
+    height: 100%;
+}
+
+.card {
+    width: 40%;
+    margin: auto;
+    background-color: rgb(224, 223, 223);
+    border: 3px solid white;
+}
