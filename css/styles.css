@@ -279,7 +279,6 @@ footer {
 .footerContent {
   display: flex;
   flex-wrap: wrap;
-
   padding: 20px 0px;
   align-items: flex-start;
 }
@@ -291,7 +290,13 @@ footer {
   justify-content: center;
   text-align: left;
 }
-
+.column1 h5{
+  color: rgb(190, 71, 23);
+  font-size: 1.5rem;
+}
+.column2 h1, footer h3{
+  color: rgb(190, 71, 23);
+}
 .column1 a {
   text-decoration: none;
   color: rgb(206, 111, 74);
@@ -357,8 +362,8 @@ a:hover{
 }
 @media (max-width: 500px) {
   .column1 {
-    margin: 0;
-    padding-left: 5%;
+    margin: 15px 0;
+    padding-left: 4%;
   }
   .column2 {
     align-items: left;
@@ -428,7 +433,7 @@ a:hover{
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding: 24px;
+    padding-bottom: 8px;
     text-align: center;
   }
   nav ul li a {
