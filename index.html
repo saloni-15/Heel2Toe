@@ -344,94 +344,98 @@
     </section>
 
     <!-- footer begins from here  -->
-    <footer class="footer">
-        <div class="d-flex pl-5 pt-4">
-            <div class="col-md-3">
-                <div class="contact">
-                    <h1>Heel2Toe</h1>
-                    <h4>Our Address</h4>
+    <footer id="contact" class="footer">
+        <div class="footerContent">
+            <div class="column2">
+                <h1>Heel2Toe</h1>
+                <a href="./index.html">Home</a>
+                <a href="./men.html">Men</a>
+                <a href="./women.html">Women</a>
+                <a href="./arrivals.html">New Arrivals</a>
+                <a href="./trending.html">Trending</a>
+                <a href="./best.html">Best Sellers</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="column1">
+                <div>
+                    <h5>Our Address</h5>
                     No.12 Lorem ipsum, Doler amet<br />
-                    <i class="fa fa-phone fa-lg mb-2"></i> +91 1234 5678<br />
-                    <i class="fa fa-fax fa-lg mb-2"></i> +91 8765 4321<br />
-                    <i class="fa fa-envelope fa-lg mb-2"></i>
-                    <a href="mailto:confusion@food.net mb-2">heel2toe@shoe.net</a>
+                    <i class="fa fa-phone fa-lg"></i>: +91 1234 5678<br />
+                    <i class="fa fa-fax fa-lg"></i>: +91 8765 4321<br />
+                    <i class="fa fa-envelope fa-lg"></i>:
+                    <a href="mailto:confusion@food.net">heel2toe@shoe.net</a>
                 </div>
             </div>
-        </div>
-        <button class="explore-btn btn btn-success btn-lg">
-            <a href="women.html">Explore More</a>
-        </button>
-    </div>
-</section>
+            <div class="contactLinks">
+                <div>
+                    <h3>Reach out to us😉</h3>
+                    <div class="contactIcons">
+                        <a class="btn btn-social-icon btn-github" href="https://github.com/saloni-15/Heel2Toe"><i
+                                class="fa fa-github"></i></a>
+                        <a class="btn btn-social-icon btn-pinterest" href="http://www.pinterest.com/in/"><i
+                                class="fa fa-pinterest"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="http://www.instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
 
-<!-- footer begins from here  -->
-<footer id="contact" class="footer">
-      <div class="footerContent">
-        <div class="column2">
-          <h1>Heel2Toe</h1>
-              <a href="./index.html">Home</a>
-              <a href="./men.html">Men</a>
-              <a href="./women.html">Women</a>
-              <a href="./arrivals.html">New Arrivals</a>
-              <a href="./trending.html">Trending</a>
-              <a href="./best.html">Best Sellers</a>
-              <a href="./contact.html">Contact</a>
-        </div>
-      <div class="column1">
-        <div>
-        <h5>Our Address</h5>
-        No.12 Lorem ipsum, Doler amet<br />
-        <i class="fa fa-phone fa-lg"></i>: +91 1234 5678<br />
-        <i class="fa fa-fax fa-lg"></i>: +91 8765 4321<br />
-        <i class="fa fa-envelope fa-lg"></i>:
-        <a href="mailto:confusion@food.net">heel2toe@shoe.net</a>
-      </div>
-      </div>
-      <div class="contactLinks">
-          <div>
-            <h3>Reach out to us😉</h3>
-            <div class="contactIcons">
-              <a
-          class="btn btn-social-icon btn-github"
-          href="http://github.com/"
-          ><i class="fa fa-github"></i
-        ></a>
-        <a
-          class="btn btn-social-icon btn-pinterest"
-          href="http://www.pinterest.com/in/"
-          ><i class="fa fa-pinterest"></i
-        ></a>
-        <a
-          class="btn btn-social-icon btn-facebook"
-          href="http://www.facebook.com/"
-          ><i class="fa fa-facebook"></i
-        ></a>
-        <a
-          class="btn btn-social-icon btn-twitter"
-          href="http://twitter.com/"
-          ><i class="fa fa-twitter"></i
-        ></a>
-        <a
-          class="btn btn-social-icon btn-instagram"
-          href="http://www.instagram.com/"
-          ><i class="fa fa-instagram"></i
-        ></a>
             </div>
-          </div>
+
 
         </div>
+        </div>
+        <div class="copy">
+            <p>© Copyright 2021 Heel2toe</p>
 
-
-      </div>
-    </div>
-    <div class="copy">
-      <p>© Copyright 2021 Heel2toe</p>
-
-    </div>
+        </div>
 
     </footer>
-<!-- footer ends from here  -->
+    <!-- footer ends from here  -->
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        // $('.brand__slider').slick({
+        //     infinite: true,
+        //     slidesToShow: 6,
+        //     slidesToScroll: 3
+        // });
+
+        $('.brand__slider').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 4,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 500,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
 </body>
+
 </html>
