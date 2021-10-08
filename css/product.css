@@ -17,7 +17,7 @@ a {
 }
 
 .nav {
-    height: 100%;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +27,7 @@ a {
 .nav .logo-top {
     color: white;
     font-size: 30px;
+    margin-left: 8%;
 }
 
 .nav ul {
@@ -368,7 +369,7 @@ a {
     margin-top: 10px
 }
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
 
 * {
