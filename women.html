@@ -4,21 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="An online shoe shopping website template built with HTML, CSS and JAVASCRIPT">
-
-    <meta name="keywords" content="html, css, javascript, shoes, hacktoberfest, open source">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Women's</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/women.css">
+    <link rel="stylesheet" href="css/allbtns.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&display=swap"
         rel="stylesheet" />
 </head>
 
 <body>
-    <div class="wrapper">
-    <nav class="black">
+    <nav class="black shadow">
         <div class="menu-icon">
             <i class="fa fa-bars fa-2x"></i>
         </div>
@@ -28,29 +27,202 @@
         <div class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#men">Men</a></li>
-                <li><a href="#new">New Arrivals</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="arrivals.html">New Arrivals</a></li>
                 <li><a href="trending.html">Trending</a></li>
-                <li><a href="./best.html">Best Sellers</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="best.html">Best Sellers</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <div class="top" style="width: 100%;">
-    <div class="box">
-        <img style="height: 100px; width: 100px;" src="images/high-heels.png" alt="">
-        <h3>SHOE FETISH</h3>
+    <div id="women-banner">
+        <div id="content">
+            <h1>Premium Women's Wear Collection</h1>
+            <p>Find your Inner Diva.</p>
+            <button class="btn explore-now">Explore Now!</button>
+        </div>
     </div>
-    <div class="top-section">
-        <div class="top__elements">
-        <h2> <i>20% off </i><br> FALL TRENDS</h2>
-        <button class="btn">Shop Collection</button>
-    </div>
-        <img src="images/women-poster.png" alt="footware">
-        
-    </div>
-</div>
-</div>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women1.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Doler <span class="badge badge-dark">TRENDING</span>
+                        </h5>
+                        <p class="card-text">Nulla doloribus nobis.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women2.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Lorem <span class="badge badge-warning">HOT</span>
+                            <span class="badge badge-dark"> TRENDING</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women3.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Ipsum
+                            <span class="badge badge-pill badge-success">BEST-SELLER</span>
+                        </h5>
+                        <p class="card-text">Repellendus impedit veniam praesentium.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women4.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Doler <span class="badge badge-warning">HOT</span>
+                        </h5>
+                        <p class="card-text">Nulla doloribus nobis.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women5.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Lorem <span class="badge badge-danger">NEW</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women6.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Ipsum <span class="badge badge-danger">NEW</span>
+                        </h5>
+                        <p class="card-text">Repellendus impedit veniam praesentium.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women7.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Doler <span class="badge badge-warning">HOT</span>
+                        </h5>
+                        <p class="card-text">Nulla doloribus nobis.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women8.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Lorem <span class="badge badge-danger">NEW</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women9.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Ipsum <span class="badge badge-danger">NEW</span>
+                        </h5>
+                        <p class="card-text">Repellendus impedit veniam praesentium.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women10.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Doler <span class="badge badge-warning">HOT</span>
+                        </h5>
+                        <p class="card-text">Nulla doloribus nobis.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women11.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Lorem <span class="badge badge-danger">NEW</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-12 col-md-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="images/women12.jpg" height="320" width="320" alt="shoe image"
+                        loading="lazy" />
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Ipsum <span class="badge badge-danger">NEW</span>
+                        </h5>
+                        <p class="card-text">Repellendus impedit veniam praesentium.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
