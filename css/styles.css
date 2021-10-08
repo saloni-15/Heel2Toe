@@ -116,7 +116,7 @@ nav.black .logo {
 
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 16px 20px;
 }
 
 nav ul li a,
@@ -398,8 +398,16 @@ a:hover{
     transform: rotate(360deg);
   }
 }
+@media (max-width:1005px) {
 
-@media (max-width: 786px) {
+  nav ul li {
+    display: inline-block;
+    padding: 16px 5px;
+  }
+  
+}
+
+@media (max-width: 900px) {
   .wrapper {
     background-image: url("../images/bgshoes1.png");
     background-size: cover;
