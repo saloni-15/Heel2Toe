@@ -15,7 +15,7 @@
 
 <body>
     <header class="header">
-        <nav class="nav">
+        <nav class="nav" style="flex-wrap: nowrap;">
             <a href="index.html" class="logo-top">Heel2Toe</a>
 
             <ul>
@@ -27,6 +27,13 @@
                 <li class="top-nav-link"><a href="best.html">Best Sellers</a></li>
                 <li class="top-nav-link"><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="menu-icon">
+                <div class="bar-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -102,6 +109,16 @@
     <footer class="footer">
         <p>Copyright &copy; 2021 Heel2toe</p>
     </footer>
+    
+    <!-- sceript for toggle nav -->
+    <script>
+        const icon = document.querySelector(".menu-icon");
+        const navList = document.querySelector(".nav ul")
+
+        icon.addEventListener("click", function(){
+            navList.classList.toggle("showing")
+        })
+    </script>
 </body>
 
 </html>

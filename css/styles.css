@@ -424,7 +424,9 @@ a:hover{
     margin-top: 16px;
     color: white;
   }
-
+  nav{
+    box-shadow: 0px -5px 20px 0px black;
+  }
   nav ul {
     max-height: 0px;
     background: rgb(221, 84, 29);

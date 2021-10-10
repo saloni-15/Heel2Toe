@@ -49,7 +49,7 @@ body {
     float: left;
     margin: 16px 46px;
     color: rgb(221, 84, 29);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -82,6 +82,8 @@ nav.black ul {
 
 nav.black ul li a {
     color: white;
+    font-weight: 600;
+    letter-spacing: .5px;
 }
 
 nav.black .logo {
@@ -125,11 +127,11 @@ nav ul li a,
     cursor: pointer;
 }
 .bar{
-    width: 40px;
+    width: 35px;
     height: 6px;
     background-color: #fff;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -204,7 +206,7 @@ nav ul li a:hover{
     nav ul {
         max-height: 0px;
         background: rgb(221, 84, 29);
-        padding-top: 65px;
+        padding: 65px 0 10px;
     }
 
     nav.black ul {
@@ -218,6 +220,7 @@ nav ul li a:hover{
         width: 100%;
         text-align: center;
         margin-bottom: 0;
+        padding-bottom: 0;
     }
     .menu-icon{
         display: block;

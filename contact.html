@@ -5,6 +5,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"/>
   <!-- Style -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/contact.css">
@@ -15,9 +16,13 @@
 <body>
   <nav class="black">
     <div class="menu-icon">
-      <i class="fa fa-bars fa-2x"></i>
+      <div class="bar-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
     </div>
-    <a href="index.html"><div class="logo">Heel2Toe</div></a>
+    </div>
+    <a href="index.html"><div class="logo" style="z-index: 1;">Heel2Toe</div></a>
     <div class="menu">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -68,6 +73,16 @@
     </div>
   </div>
   <script src="script.js"></script>
+
+   <!-- script for mobile nav links -->
+   <script>
+    const icon = document.querySelector(".menu-icon");
+    const navList = document.querySelector("nav ul")
+
+    icon.addEventListener("click", function(){
+        navList.classList.toggle("showing")
+    })
+</script>
 
 </body>
 
