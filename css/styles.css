@@ -438,12 +438,13 @@ a:hover{
 
   .showing {
     max-height: 34em;
+    padding-right: 0;
   }
 
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding-bottom: 8px;
+    padding: 0;
     text-align: center;
   }
   nav ul li a {
@@ -457,6 +458,14 @@ a:hover{
   .menu-icon {
     display: block;
     color: white;
+  }
+}
+@media (min-width: 990px) and (max-width: 1111px){
+  nav ul{
+    padding-right: 0;
+  }
+  nav ul li{
+    padding: 16px 1.55%;
   }
 }
 .container {
