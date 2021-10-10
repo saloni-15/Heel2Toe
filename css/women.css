@@ -23,6 +23,7 @@ body {
 }
 
 nav {
+    background: rgb(221, 84, 29);
     position: fixed;
     width: 100%;
     line-height: 60px;
@@ -57,7 +58,7 @@ nav.black .logo {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;
+    padding: 16px 2.5%;
 }
 
 nav ul li a {
@@ -74,15 +75,28 @@ nav ul li a,
 }
 
 .menu-icon {
-    line-height: 60px;
-    width: 100%;
     background: rgb(221, 84, 29);
-    text-align: right;
-    box-sizing: border-box;
-    padding: 15px 24px;
-    cursor: pointer;
-    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 0 7px rgba(0, 0, 0, 0.3);
     display: none;
+}
+.bar-icon{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    cursor: pointer;
+}
+.bar{
+    width: 35px;
+    height: 6px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 nav ul li a::before {
@@ -168,3 +182,49 @@ nav ul li a:hover{
     padding: 40px;
 }
 
+/* for responsive navbar */
+@media (max-width: 1155px){
+    nav ul li {
+        padding: 16px 1.7%;
+    }
+    nav ul{
+        padding-right: 20px;
+        width: 80%;
+        float: right;
+    }
+}
+@media (max-width: 950px){
+    nav ul li {
+        padding: 16px 1.7%;
+    }
+    nav ul{
+        padding-right: 20px;
+        width: 77%;
+    }
+}
+@media (max-width: 820px){
+    nav ul {
+        max-height: 0;
+        background: rgb(221, 84, 29);
+        padding-top: 65px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    nav.black ul {
+        background: rgb(221, 84, 29);
+    }
+    .showing {
+        max-height: 100vh;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+}

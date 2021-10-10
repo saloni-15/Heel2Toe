@@ -23,7 +23,11 @@
 <body>
     <nav class="black shadow">
         <div class="menu-icon">
-            <i class="fa fa-bars fa-2x"></i>
+            <div class="bar-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </div>
         <a href="index.html">
             <div class="logo">Heel2Toe</div>
@@ -303,6 +307,16 @@
     </div>
 
     <script src="script.js"></script>
+
+     <!-- script for mobile nav links -->
+     <script>
+        const icon = document.querySelector(".menu-icon");
+        const navList = document.querySelector("nav ul")
+
+        icon.addEventListener("click", function(){
+            navList.classList.toggle("showing")
+        })
+    </script>
 </body>
 
 </html>
