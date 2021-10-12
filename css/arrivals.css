@@ -27,7 +27,7 @@ nav {
     width: 100%;
     line-height: 60px;
     margin-top: 0;
-    z-index: 1;
+    z-index: 100;
     background-color: rgb(221, 84, 29);
     box-shadow: 2px 0 7px rgba(0, 0, 0, 0.3);
 }
@@ -74,8 +74,8 @@ nav ul li a,
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
+    
 }
-
 .menu-icon {
     background: rgb(221, 84, 29);
     position: absolute;
