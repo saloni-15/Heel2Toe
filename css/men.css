@@ -171,6 +171,8 @@ nav ul li a:hover{
 .card {
     margin: auto;
     font-family: 'Inter', sans-serif;
+    transition: transform 0.2s ease;
+
 }
 
 .card-title {
@@ -180,6 +182,11 @@ nav ul li a:hover{
 .card-text {
     color: black;
 }
+
+.card:hover {
+    transform: scale(1.05);
+  }
+  
 
 .col {
     margin: 20px auto;
