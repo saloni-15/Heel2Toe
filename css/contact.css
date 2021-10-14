@@ -76,6 +76,57 @@ nav ul li a:hover {
         padding-bottom: 0px;
     }
 }
+
+/* style for form*/
+.new{
+    background-color: white;
+    padding-bottom: 2rem;
+} 
+.container{
+    border: 2px solid rgb(221, 84, 29);
+    background-color: white;
+}
+
+label{
+    color: rgb(221, 84, 29);
+}
+
+textarea:hover, input:hover, select:hover{
+    background-color: rgb(221, 84, 29);
+}
+
+::placeholder, select{
+    color: white;
+}
+
+input[type="text"], select, textarea{
+    border: 1px solid rgb(221, 84, 29);
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+    background-color: white;
+}
+
+#submit{
+    background-color: white;
+    border: 1px solid rgb(221, 84, 29);
+    color: rgb(221, 84, 29);
+
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#submit:hover{
+    background-color: rgb(221, 84, 29);;
+    color: white;
+}
+
+
+
+/*media*/
+
 @media (max-width: 1155px){
     nav ul li {
         padding: 16px 1.7%;
