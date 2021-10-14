@@ -126,6 +126,9 @@ a {
     vertical-align: baseline;
     border-radius: .25rem
 }
+.checked{
+    color: rgb(221, 84, 29);
+}
 
 .product-rating {
     margin-top: 10px
