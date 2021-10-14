@@ -160,11 +160,17 @@ nav ul li a:hover {
 }
 .card {
   margin: auto;
+  transition: transform 0.2s ease;
+
 }
 
 .card-title,
 .card-text {
   color: black;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .col {
