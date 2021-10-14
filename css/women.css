@@ -165,7 +165,14 @@ nav ul li a:hover{
 .card {
     margin: auto;
     font-family: 'Inter', sans-serif;
+    transition: transform 0.2s ease;
+
 }
+
+.card:hover {
+    transform: scale(1.05);
+  }
+  
 
 .card-title {
     font-weight: 600;
