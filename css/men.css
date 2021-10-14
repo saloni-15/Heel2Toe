@@ -153,11 +153,25 @@ nav ul li a:hover{
     background-color: #00000059;
     color: #ff7640;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 0.1s;
 }
+
+@media(max-width: 768px) {
+    #men-banner #content button{
+        width: 100%;  
+        font-size: 20px;
+    }
+}
+
 #men-banner #content button:hover{
     color: rgb(255, 222, 191);
     background-color: #dd541d ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -171,6 +185,8 @@ nav ul li a:hover{
 .card {
     margin: auto;
     font-family: 'Inter', sans-serif;
+    transition: transform 0.2s ease;
+
 }
 
 .card-title {
@@ -180,6 +196,11 @@ nav ul li a:hover{
 .card-text {
     color: black;
 }
+
+.card:hover {
+    transform: scale(1.05);
+  }
+  
 
 .col {
     margin: 20px auto;
@@ -233,4 +254,3 @@ nav ul li a:hover{
         display: block;
     }
 }
-
