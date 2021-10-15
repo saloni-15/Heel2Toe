@@ -520,3 +520,14 @@ input[type="submit"]:hover {
 .new {
   align-items: center;
 }
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #fff;
+}
+
+.progress-bar {
+  height: 5px;
+  background: #000;
+  width: 0%;
+}
