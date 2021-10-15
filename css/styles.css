@@ -521,6 +521,11 @@ input[type="submit"]:hover {
   align-items: center;
 }
 
+.btn-div{
+  margin: auto;
+}
+
+/* for card responsiveness */
 @media (max-width: 930px){
   .col{
     min-width: 43%;
@@ -531,6 +536,11 @@ input[type="submit"]:hover {
   }
   .col-12{
     flex: 0;
+  }
+}
+@media (max-width: 830px){
+  .btn-div{
+    padding-left: 37%;
   }
 }
 @media (max-width: 640px) {
@@ -546,6 +556,7 @@ input[type="submit"]:hover {
     padding-left: 0;
   }
 }
+
 @media (max-width: 530px){
   .col {
     max-width: 100%;
