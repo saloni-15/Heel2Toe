@@ -520,6 +520,49 @@ input[type="submit"]:hover {
 .new {
   align-items: center;
 }
+
+
+.btn-div{
+  margin: auto;
+}
+
+/* for card responsiveness */
+@media (max-width: 930px){
+  .col{
+    min-width: 43%;
+  }
+  .btn-div{
+    width: 100%;
+    padding-left: 40%;
+  }
+  .col-12{
+    flex: 0;
+  }
+}
+@media (max-width: 830px){
+  .btn-div{
+    padding-left: 37%;
+  }
+}
+@media (max-width: 640px) {
+  .col {
+    min-width: 300px;
+    max-width: 80%;
+  }
+  .col-12 {
+    flex: 0 0 100%;
+  }
+  .btn-div{
+    width: fit-content;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 530px){
+  .col {
+    max-width: 100%;
+  }
+
 .progress-container {
   width: 100%;
   height: 5px;
@@ -530,4 +573,5 @@ input[type="submit"]:hover {
   height: 5px;
   background: #000;
   width: 0%;
+
 }
