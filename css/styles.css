@@ -421,10 +421,14 @@ a:hover{
 
 @media (max-width: 900px) {
   .wrapper {
-    background-image:none;
-    background-size: cover;
-    height: 0px;
+    background-image:url("../images/bgshoes2.jpg");
+    background-size:100%;
+    background-position-y: 15vh;
+    background-repeat: no-repeat;
+    height:80vh;
   }
+
+  
   .logo {
     position: fixed;
     top: 0;
