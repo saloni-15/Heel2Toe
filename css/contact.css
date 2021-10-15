@@ -1,9 +1,28 @@
 .new {
     padding-top: 100px;
 }
-nav ul li a:hover {
+nav ul li a {
+    position: relative;
+}
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    width: 0%;
+    background: white;
+    height: 7%;
     transition: all 0.2s ease;
 }
+nav ul li a:hover:before {
+    width: 100%;
+    left: 0;
+}
+nav.black ul li a:hover{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
 @media (max-width:1048px) {
     .new{
         padding-top: 163px;
