@@ -55,6 +55,7 @@ body::-webkit-scrollbar-thumb {
   height: 980px;
 }
 
+
 .content {
   width: 94%;
   margin: 4em auto;
@@ -420,10 +421,14 @@ a:hover{
 
 @media (max-width: 900px) {
   .wrapper {
-    background-image: url("../images/bgshoes1.png");
-    background-size: cover;
-    height: 780px;
+    background-image:url("../images/bgshoes2.jpg");
+    background-size:100%;
+    background-position-y: 15vh;
+    background-repeat: no-repeat;
+    height:80vh;
   }
+
+  
   .logo {
     position: fixed;
     top: 0;
