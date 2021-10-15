@@ -520,3 +520,34 @@ input[type="submit"]:hover {
 .new {
   align-items: center;
 }
+
+@media (max-width: 930px){
+  .col{
+    min-width: 43%;
+  }
+  .btn-div{
+    width: 100%;
+    padding-left: 40%;
+  }
+  .col-12{
+    flex: 0;
+  }
+}
+@media (max-width: 640px) {
+  .col {
+    min-width: 300px;
+    max-width: 80%;
+  }
+  .col-12 {
+    flex: 0 0 100%;
+  }
+  .btn-div{
+    width: fit-content;
+    padding-left: 0;
+  }
+}
+@media (max-width: 530px){
+  .col {
+    max-width: 100%;
+  }
+}
