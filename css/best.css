@@ -200,6 +200,16 @@ nav ul li a:hover{
    padding: auto;
 }
 
+/* Card for best category */
+.best-seller-card{
+    border: 2px black solid;
+    transition: 0.5s ease-in-out;
+}
+.best-seller-card:hover{
+    transform: translate(20px);
+    transition: 0.5s ease-in-out;
+}
+
 /* for responsive navbar */
 
 @media (max-width: 786px){
