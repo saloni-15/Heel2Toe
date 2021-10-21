@@ -25,22 +25,22 @@
   transition: all 0.6s ease-in-out;
 }
 
-.btn-dark a{
-    color: rgb(255, 218, 151) !important;
+.btn-dark a {
+  color: #fffefe !important;
 }
 
-.quicklinks a{
-    color: rgb(209, 136, 0);
+.quicklinks a {
+  color: rgb(209, 136, 0);
 }
 
-.quicklinks a:hover{
-    color: rgb(156, 102, 0);
+.quicklinks a:hover {
+  color: rgb(156, 102, 0);
 }
 
-.contact a{
-    color: #ce6f4a;
+.contact a {
+  color: #ce6f4a;
 }
 
-.contact a:hover{
-    color: rgb(156, 102, 0);
+.contact a:hover {
+  color: rgb(156, 102, 0);
 }

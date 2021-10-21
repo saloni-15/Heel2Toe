@@ -22,6 +22,7 @@
                 <li class="top-nav-link"><a href="index.html">Home</a></li>
                 <li class="top-nav-link"><a href="#men">Men</a></li>
                 <li class="top-nav-link"><a href="women.html">Women</a></li>
+                <li class="top-nav-link"><a href="./kids.html">Kids</a></li>
                 <li class="top-nav-link"><a href="#new">New Arrivals</a></li>
                 <li class="top-nav-link"><a href="trending.html">Trending</a></li>
                 <li class="top-nav-link"><a href="best.html">Best Sellers</a></li>
@@ -95,7 +96,7 @@
                           </div>
                           <div class="row">
                               <div class="col-xs-6" style="margin-left: 13px;">
-                                  <div class="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+                                  <div class="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value="1" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;">
                                       <div style="margin-left: 13px;" class="quantity_buttons">
                                           <div  id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
                                           <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
@@ -121,11 +122,28 @@
     <!-- sceript for toggle nav -->
     <script>
         const icon = document.querySelector(".menu-icon");
-        const navList = document.querySelector(".nav ul")
+        const navList = document.querySelector(".nav ul");
 
         icon.addEventListener("click", function(){
-            navList.classList.toggle("showing")
+            navList.classList.toggle("showing");
         })
+    </script>
+     
+     
+    <!--Script for increasing the QTY-->
+    <script>
+        const increase_btn = document.querySelector("#quantity_inc_button");
+        const decrease_btn = document.querySelector("#quantity_dec_button");
+        
+        increase_btn.addEventListener("click", function(){
+              let qty_val = document.querySelector("#quantity_input").value
+              document.querySelector("#quantity_input").value = parseInt(qty_val) + 1;
+        });
+        
+        decrease_btn.addEventListener("click", function(){
+              let qty_val = document.querySelector("#quantity_input").value
+              document.querySelector("#quantity_input").value = parseInt(qty_val) - 1;
+        });
     </script>
 </body>
 
