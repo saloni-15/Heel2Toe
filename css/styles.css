@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .img-h:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 1.1s;
 }
 
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 
 .img-editt {
   height: 72vh;
-  width: 80%;
+  width: 70%;
 }
 
 .img-editt1 {
@@ -159,6 +159,9 @@ nav ul li a:hover {
   margin: 0 auto 40px auto;
   font-weight: 600;
 }
+
+
+
 .card {
   margin: auto;
   transition: transform 0.2s ease;
@@ -405,6 +408,7 @@ a:hover{
   display: flex;
 }
 
+
 @keyframes preloading {
   100% {
     transform: rotate(360deg);
@@ -530,6 +534,8 @@ input[type="submit"]:hover {
 .btn-div{
   margin: auto;
 }
+
+
 
 /* for card responsiveness */
 @media (max-width: 930px){
