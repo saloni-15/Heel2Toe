@@ -78,7 +78,7 @@
    ```
    git commit -m "Relevant message"
    ```
-10. **Push the commited changes in your branch to your remote repo.**
+10. **Push the committed changes in your branch to your remote repo.**
     ```
     git push -u origin <your_branch_name>
     ```
