@@ -162,16 +162,20 @@
     </script>
     <!--Script for increasing the QTY-->
     <script>
-      const increase_btn = document.querySelector("#quantity_inc_button");
-      const decrease_btn = document.querySelector("#quantity_dec_button");
-      increase_btn.addEventListener("click", function() {
-        let qty_val = document.querySelector("#quantity_input").value
-        document.querySelector("#quantity_input").value = parseInt(qty_val) + 1;
-      });
-      decrease_btn.addEventListener("click", function() {
-        let qty_val = document.querySelector("#quantity_input").value
-        document.querySelector("#quantity_input").value = parseInt(qty_val) - 1;
-      });
+        const increase_btn = document.querySelector("#quantity_inc_button");
+        const decrease_btn = document.querySelector("#quantity_dec_button");
+        
+        increase_btn.addEventListener("click", function(){
+              let qty_val = document.querySelector("#quantity_input").value
+              document.querySelector("#quantity_input").value = parseInt(qty_val) + 1;
+        });
+        
+        decrease_btn.addEventListener("click", function(){
+              let qty_val = document.querySelector("#quantity_input").value
+              if(parseInt(qty_val) - 1 >= 0){
+                document.querySelector("#quantity_input").value = parseInt(qty_val) - 1;
+              }
+        });
     </script>
   </body>
 </html>
