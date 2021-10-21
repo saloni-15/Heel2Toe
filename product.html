@@ -142,7 +142,9 @@
         
         decrease_btn.addEventListener("click", function(){
               let qty_val = document.querySelector("#quantity_input").value
-              document.querySelector("#quantity_input").value = parseInt(qty_val) - 1;
+              if(parseInt(qty_val) - 1 >= 0){
+                document.querySelector("#quantity_input").value = parseInt(qty_val) - 1;
+              }
         });
     </script>
 </body>
