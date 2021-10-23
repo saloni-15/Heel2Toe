@@ -198,9 +198,9 @@ nav ul li a:hover {
 }
 
 .left-heading {
-  text-align: left;
+  /* text-align: left; */
   font-family: "Great Vibes", cursive;
-  padding: 70px 0 0 70px;
+  padding: 70px 0 0 0px;
   margin: auto;
   color: black;
 }
