@@ -15,6 +15,7 @@ a {
     background: rgb(221, 84, 29);
     position: fixed;
     top: 0;
+    padding: 14px;
     z-index: 1;
     width: 100%;
     box-shadow: 0px -5px 20px 0px black;
@@ -52,9 +53,11 @@ a {
 }
 .top-nav-link {
     margin-left: 35px;
+    text-transform: uppercase;
 }
 .nav ul li a {
     color: white;
+    font-weight: bold;
     font-size: 18px;
 }
 .menu-icon {

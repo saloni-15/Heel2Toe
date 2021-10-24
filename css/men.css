@@ -219,6 +219,17 @@ nav ul li a:hover{
         float: right;
     }
 }
+
+@media (max-width: 960px) {
+    .col{
+        min-width: 50%;
+        max-width: 70%;
+    }
+    .col-12{
+        flex: 0;
+    }
+}
+
 @media (max-width: 950px){
     nav ul li {
         padding: 16px 1.7%;
@@ -254,3 +265,19 @@ nav ul li a:hover{
         display: block;
     }
 }
+
+@media (max-width: 640px){
+    .col{
+        min-width: 300px;
+        max-width: 80%;
+    }
+    .col-12{
+        flex: 0 0 100%;
+    }
+}
+@media (max-width: 540px){
+    .col{
+        max-width: 100%;
+    }
+}
+

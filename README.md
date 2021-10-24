@@ -8,8 +8,8 @@
 
 <div align="center">
  
-[![GitHub forks](https://img.shields.io/github/forks/saloni-15/Heel2Toe?style=social&label=Fork&maxAge=2592000)](https://github.com/saloni-15/Heel2Toe/network)
-[![GitHub stars](https://img.shields.io/github/stars/saloni-15/Heel2Toe?style=social&label=Star&maxAge=2592000)](https://github.com/saloni-15/Heel2Toe/stargazers)
+![Forks](https://img.shields.io/github/forks/saloni-15/Heel2Toe)
+![Stars](https://img.shields.io/github/stars/saloni-15/Heel2Toe)
 <br />
  
 [![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/saloni-15)
@@ -78,7 +78,7 @@
    ```
    git commit -m "Relevant message"
    ```
-10. **Push the commited changes in your branch to your remote repo.**
+10. **Push the committed changes in your branch to your remote repo.**
     ```
     git push -u origin <your_branch_name>
     ```
