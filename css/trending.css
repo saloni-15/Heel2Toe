@@ -1,1 +1,6 @@
 /* empty css file */
+nav.black ul li a.trending{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px; 
+  }

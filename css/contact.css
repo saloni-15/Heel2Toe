@@ -4,6 +4,11 @@
     nav ul li a {
         position: relative;
     }
+    nav.black ul li a.contact{
+        color: white;
+        border-bottom: 2px solid white;
+        padding-bottom: 10px; 
+      }
     nav ul li a::before {
         content: '';
         position: absolute;
