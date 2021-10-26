@@ -304,8 +304,8 @@ nav ul li a:hover:before {
 .pagination{
     position: relative;
     display: flex;
-
     margin-top: 10px;
+    align-items: center;
 }
 
 .pagination li{
