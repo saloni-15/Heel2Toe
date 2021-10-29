@@ -211,7 +211,7 @@ nav ul li a:hover {
 .left-heading {
   text-align: left;
   font-family: "Great Vibes", cursive;
-  padding: 70px 0 0 70px;
+  padding: 100px 0 0 70px;
   margin: auto;
   color: black;
 }
@@ -378,6 +378,10 @@ a:hover {
   .contactLinks {
     margin-top: 10px;
     width: 100%;
+  }
+  .left-heading {
+    padding: 50px 0 0 0px !important;
+    text-align: center !important;
   }
 }
 @media (max-width: 500px) {
