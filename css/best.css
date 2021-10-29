@@ -92,12 +92,17 @@ nav.black .logo {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;
+    padding: 16px 20px;
 }
 
 nav ul li a {
     position: relative;
 }
+nav.black ul li a.best{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px; 
+  }
 
 nav ul li a,
 .list-unstyled li a {

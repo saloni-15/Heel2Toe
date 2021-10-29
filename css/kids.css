@@ -56,12 +56,17 @@ nav.black .logo {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 2.5%;
+    padding: 16px 20px;
 }
 
 nav ul li a {
     position: relative;
 }
+nav.black ul li a.kids{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px; 
+  }
 nav ul li a,
 .list-unstyled li a {
     text-decoration: none;

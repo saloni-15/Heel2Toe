@@ -1,3 +1,5 @@
+
+/* empty css file */
 .black {
   box-shadow: 0 0 7px 0px #333333c7;
   position: fixed;
@@ -36,6 +38,11 @@ nav ul li a,
     text-transform: uppercase;
     font-weight: 500;
 }
+nav.black ul li a.trending{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px; 
+ }
 
 .menu-icon {
     top: 0;
@@ -93,3 +100,4 @@ nav ul li a:hover{
 .card-title {
     font-weight: 600;
 }
+

@@ -112,6 +112,11 @@ nav.black ul li a:hover {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
 }
+nav.black ul li a.home{
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px; 
+}
 
 nav.black .logo {
   color: white;
