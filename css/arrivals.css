@@ -122,7 +122,7 @@ nav ul li a:hover:before {
 }
 
 .carousel-item {
-    height: 80vh;
+    height: 98vh;
     position: relative;
 }
 
@@ -276,6 +276,7 @@ nav ul li a:hover:before {
     .menu-icon{
         display: block;
     }
+    .carousel-item { height: 80vh;}
 }
 
 @media (max-width: 640px){
@@ -286,13 +287,17 @@ nav ul li a:hover:before {
     .col-12{
         flex: 0 0 100%;
     }
+    .carousel-item { height: 70vh;}
 }
 @media (max-width: 540px){
     .col{
         max-width: 100%;
     }
+    .carousel-item { height: 70vh;}
 }
-
+@media (max-width: 400px) {
+    .carousel-item { height: 60vh;}
+}
 
 #new{
     display: flex;
