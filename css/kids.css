@@ -152,9 +152,8 @@ nav ul li a:hover{
     padding: 0 0px 8px 0;
 }
 #kid-banner #content button{
-    padding: 10px 8px;
+    padding: 10px 30px;
     margin: 10px 0px;
-    width: 19%;
     font-size: 27px;
     border: 2px solid #dd541d;
     background-color: #00000070;
@@ -168,7 +167,6 @@ nav ul li a:hover{
 
 @media(max-width: 768px) {
     #kid-banner #content button{
-        width: 100%;  
         font-size: 20px;
     }
 }
