@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+//Defineing function of body
 body {
     background-color: rgb(221, 84, 29);
 }
@@ -20,7 +20,7 @@ body {
     font-size: 32px;
     letter-spacing: 2px;
 }
-
+//defining function of nav
 nav {
     position: fixed;
     width: 100%;
