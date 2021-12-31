@@ -209,7 +209,7 @@ nav ul li a:hover {
 }
 
 .left-heading {
-  text-align: left;
+  text-align: center;
   font-family: "Great Vibes", cursive;
   padding: 100px 0 0 70px;
   margin: auto;
@@ -239,7 +239,7 @@ nav ul li a:hover {
 }
 
 .best-seller .left-heading {
-  text-align: left;
+  text-align: center;
   font-family: "Great Vibes", cursive;
   padding: 80px 0 0 70px;
   margin: auto;
