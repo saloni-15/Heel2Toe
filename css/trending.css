@@ -4,7 +4,7 @@
   box-shadow: 0 0 7px 0px #333333c7;
   position: fixed;
   z-index: 1000;
- 
+  top: 0;
 }
 
 nav {
@@ -100,4 +100,8 @@ nav ul li a:hover{
 .card-title {
     font-weight: 600;
 }
-
+@media screen and (max-width: 780px) {
+    nav {
+        top: 0;
+        }
+}
