@@ -10,8 +10,12 @@ $(window).ready(function () {
 $(window).on('scroll', function () {
     if ($(window).scrollTop()) {
         $('nav').addClass('black');
+        $('.logo.unscrolled').hide();
+        $('.logo.scrolled').show();
     } else {
         $('nav').removeClass('black');
+        $('.logo.unscrolled').show();
+        $('.logo.scrolled').hide();
     }
 });
 
@@ -32,11 +36,11 @@ btn.on('click', function (e) {
 });
 
 // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+window.onscroll = function () { myFunction() };
 
 function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
 }
