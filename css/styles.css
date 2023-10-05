@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -67,14 +68,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
-  line-height: 60px;
+  margin: 1.25em 1.50em;
+  height: 50px;
+  width: auto;
   position: fixed;
   float: left;
-  margin: 16px 46px;
-  color: rgb(221, 84, 29);
-  font-weight: 500;
-  font-size: 30px;
-  letter-spacing: 2px;
+}
+
+.logo.scrolled {
+  display: none;
 }
 
 nav {
@@ -112,14 +114,11 @@ nav.black ul li a:hover {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
 }
-nav.black ul li a.home{
+
+nav.black ul li a.home {
   color: white;
   border-bottom: 2px solid white;
-  padding-bottom: 10px; 
-}
-
-nav.black .logo {
-  color: white;
+  padding-bottom: 10px;
 }
 
 nav ul li {
@@ -142,6 +141,7 @@ nav ul li a:hover {
   border-bottom: 2px solid rgb(221, 84, 29);
   padding-bottom: 10px;
 }
+
 .menu-icon {
   line-height: 60px;
   width: 100%;
@@ -186,6 +186,7 @@ nav ul li a:hover {
 .col {
   margin: 20px auto;
 }
+
 .container-fluid {
   padding: 40px;
 }
@@ -195,7 +196,7 @@ nav ul li a:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
 
-.explore-btn > a {
+.explore-btn>a {
   text-decoration: none;
   color: white;
 }
@@ -275,13 +276,16 @@ nav ul li a:hover {
   line-height: 50px;
   color: rgb(221, 84, 29);
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #333;
 }
+
 #button:active {
   background-color: #555;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;
@@ -294,6 +298,7 @@ footer {
   font-family: "Inter", sans-serif;
   width: 100%;
 }
+
 .footerContent {
   width: 80%;
   margin: 0 auto;
@@ -303,6 +308,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
 .column1 {
   display: flex;
   flex-direction: column;
@@ -310,14 +316,17 @@ footer {
   justify-content: center;
   text-align: left;
 }
+
 .column1 h5 {
   color: rgb(190, 71, 23);
   font-size: 1.5rem;
 }
+
 .column2 h1,
 footer h3 {
   color: rgb(190, 71, 23);
 }
+
 .column1 a {
   text-decoration: none;
   color: rgb(206, 111, 74);
@@ -360,38 +369,47 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+
 .contactIcons {
   width: 80%;
   margin: auto;
 }
+
 .copy {
   /* height: 5vh; */
   display: flex;
   justify-content: center;
 }
+
 /* Code for responsive footer  */
 @media (max-width: 890px) {
+
   .column1,
   .column2 {
     width: 50%;
   }
+
   .contactLinks {
     margin-top: 10px;
     width: 100%;
   }
+
   .left-heading {
     padding: 50px 0 0 0px !important;
     text-align: center !important;
   }
 }
+
 @media (max-width: 500px) {
   .footerContent {
     justify-content: center;
   }
+
   .column1 {
     margin: 15px 0;
     padding-left: 4%;
   }
+
   .column2 {
     width: 100%;
     text-align: center;
@@ -399,6 +417,7 @@ a:hover {
     padding-left: 4%;
   }
 }
+
 /* Code for responsive footer ends here  */
 
 .preloading {
@@ -413,6 +432,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .preloading .outer-circle {
   height: 8vmin;
   width: 8vmin;
@@ -421,6 +441,7 @@ a:hover {
   border-radius: 50%;
   animation: preloading 0.8s linear infinite;
 }
+
 .preloading.loading {
   display: flex;
 }
@@ -431,6 +452,7 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
 @media (max-width: 1005px) {
   nav ul li {
     display: inline-block;
@@ -453,9 +475,11 @@ a:hover {
     margin-top: 16px;
     color: white;
   }
+
   nav {
     box-shadow: 0px -5px 20px 0px black;
   }
+
   nav ul {
     max-height: 0px;
     background: rgb(221, 84, 29);
@@ -476,27 +500,33 @@ a:hover {
     padding: 0;
     text-align: center;
   }
+
   nav ul li a {
     color: white;
   }
+
   nav ul li a:hover {
     color: white;
     border-bottom: 2px solid white;
     padding-bottom: 10px;
   }
+
   .menu-icon {
     display: block;
     color: white;
   }
 }
+
 @media (min-width: 990px) and (max-width: 1111px) {
   nav ul {
     padding-right: 0;
   }
+
   nav ul li {
     padding: 16px 1.55%;
   }
 }
+
 .container {
   margin-top: 25px;
   margin-left: auto;
@@ -508,9 +538,11 @@ a:hover {
   width: 60%;
   font-size: medium;
 }
+
 label {
   color: black;
 }
+
 input[type="text"],
 select,
 textarea {
@@ -533,13 +565,16 @@ input[type="submit"] {
   cursor: pointer;
   font-size: medium;
 }
+
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
 .contactform {
   text-align: center;
   color: rgb(221, 84, 29);
 }
+
 .new {
   align-items: center;
 }
@@ -555,27 +590,33 @@ input[type="submit"]:hover {
   .col {
     min-width: 43%;
   }
+
   .btn-div {
     width: 100%;
     padding-left: 40%;
   }
+
   .col-12 {
     flex: 0;
   }
 }
+
 @media (max-width: 830px) {
   .btn-div {
     padding-left: 37%;
   }
 }
+
 @media (max-width: 640px) {
   .col {
     min-width: 300px;
     max-width: 80%;
   }
+
   .col-12 {
     flex: 0 0 100%;
   }
+
   .btn-div {
     width: fit-content;
     padding-left: 0;
