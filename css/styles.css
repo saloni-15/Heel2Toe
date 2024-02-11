@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
